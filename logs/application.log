@@ -1,0 +1,60 @@
+17:43:33.246 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 15121 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:43:33.254 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:43:35.614 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:43:35.616 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:43:35.725 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:43:36.683 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.949 seconds (process running for 11.545)
+17:51:59.987 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 15585 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:52:00.010 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:52:02.346 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:52:02.347 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:52:02.437 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:52:03.430 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.972 seconds (process running for 11.737)
+17:54:21.007 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 15722 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:54:21.013 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:54:23.321 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:54:23.322 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:54:23.433 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:54:24.427 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.934 seconds (process running for 11.578)
+17:54:55.616 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 15769 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:54:55.620 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:54:57.892 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:54:57.893 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:54:58.012 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:54:58.974 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.886 seconds (process running for 11.12)
+17:56:19.274 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 15856 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:56:19.279 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:56:21.599 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:56:21.600 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:56:21.719 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:56:22.750 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.999 seconds (process running for 11.569)
+17:56:53.884 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 15903 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:56:53.887 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:56:56.209 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:56:56.210 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:56:56.329 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:56:57.298 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.937 seconds (process running for 11.157)
+17:59:54.126 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 16080 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+17:59:54.128 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:59:56.501 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:59:56.502 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:59:56.608 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:59:57.593 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.997 seconds (process running for 11.661)
+18:00:29.617 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 16130 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+18:00:29.619 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+18:00:31.937 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:00:31.939 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+18:00:32.036 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:00:33.050 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.913 seconds (process running for 11.231)
+18:01:30.624 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 16202 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+18:01:30.626 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+18:01:32.916 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:01:32.917 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+18:01:33.014 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:01:33.981 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.87 seconds (process running for 11.22)
+18:03:47.273 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.6 with PID 16335 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+18:03:47.276 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+18:03:49.587 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:03:49.589 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+18:03:49.697 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:03:50.685 [main] INFO  c.e.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.924 seconds (process running for 11.464)
