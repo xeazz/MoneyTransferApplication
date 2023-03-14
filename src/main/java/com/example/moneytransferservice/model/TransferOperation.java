@@ -2,11 +2,13 @@ package com.example.moneytransferservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
 @AllArgsConstructor
 public class TransferOperation {
-    private final String operationId;
+    private String operationId;
     private final String code;
 
     @Override

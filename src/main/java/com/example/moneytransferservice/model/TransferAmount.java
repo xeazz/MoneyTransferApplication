@@ -6,8 +6,8 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class TransferAmount {
-    private final Long value;
-    private final String currency;
+    private int value;
+    private String currency;
 }
 
 

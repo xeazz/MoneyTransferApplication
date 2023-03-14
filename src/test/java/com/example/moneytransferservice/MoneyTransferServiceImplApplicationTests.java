@@ -19,7 +19,7 @@ import java.net.URISyntaxException;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class MoneyTransferServiceApplicationTests {
+class MoneyTransferServiceImplApplicationTests {
     @Autowired
     TestRestTemplate restTemplate;
     @Container

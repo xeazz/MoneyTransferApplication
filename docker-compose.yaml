@@ -5,4 +5,4 @@ services:
     image: "myapp:latest"
     container_name: "Money_Transfer"
     ports:
-      - '5500'
+      - '5500:5500'

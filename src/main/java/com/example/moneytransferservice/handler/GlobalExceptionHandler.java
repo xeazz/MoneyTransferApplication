@@ -1,17 +1,17 @@
-package com.example.moneytransferservice.exceptions;
+package com.example.moneytransferservice.handler;
 
+import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
+import com.example.moneytransferservice.exceptions.InternalServerErrorException;
 import com.example.moneytransferservice.model.ErrorResponse;
-import com.example.moneytransferservice.repository.TransferRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.util.UUID;
 
-@ControllerAdvice
+@RestControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {
 
