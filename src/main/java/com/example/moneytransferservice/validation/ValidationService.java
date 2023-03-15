@@ -43,7 +43,7 @@ public class ValidationService {
         }
         if (transferMoney.getAmount().getValue() == 0) {
             log.error("Сумма перевода указана некорректно!");
-            throw new IncorrectInputDataException("Номер карты получателя указан неверно!");
+            throw new IncorrectInputDataException("Сумма перевода указана некорректно!");
         }
     }
 

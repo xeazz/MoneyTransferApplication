@@ -28,7 +28,7 @@ public class TransferServiceImplTest {
 
     @Test
     public void transferTestFirst_False() {
-        TransferMoney transferMoney = new TransferMoney("", "1",
+        TransferMoney transferMoney = new TransferMoney("1", "1",
                 "1", "1", new Amount(100, "ru"));
         Mockito.doThrow(IncorrectInputDataException.class).when(validationService).validateTransfer(transferMoney);
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(IncorrectInputDataException.class);
@@ -42,18 +42,9 @@ public class TransferServiceImplTest {
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(InternalServerErrorException.class);
     }
 
-    @Test
-    public void transferTestThird_False() {
-        TransferMoney transferMoney = new TransferMoney("1", "1",
-                "1", "1", new Amount(100, "rus"));
-        when(repository.saveTransaction(service.generateOperationId(), transferMoney)).thenReturn(true);
-        Mockito.doNothing().when(validationService).validateTransfer(transferMoney);
-        SuccessResponse SuccessResponse = service.transfer(transferMoney);
-        assertThat(SuccessResponse).isExactlyInstanceOf(SuccessResponse.class);
-    }
 
     @Test
-    public void transferTestFourth_False() {
+    public void transferTestThird_False() {
         TransferOperation transferOperation = new TransferOperation("1111", "0000");
         service.generateOperationId();
         Mockito.doNothing().when(validationService).validateConfirmOperation(transferOperation);

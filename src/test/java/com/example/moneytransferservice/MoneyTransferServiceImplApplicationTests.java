@@ -39,7 +39,7 @@ class MoneyTransferServiceImplApplicationTests {
         try {
             URI transferUri = new URI(transferLink);
             TransferMoney transferMoney = new TransferMoney("4875130166305242", "05/26",
-                    "123", "4832137002407281", null);
+                    "123", "4832137002407281", new Amount(10, "rus"));
             HttpEntity<TransferMoney> requestTransfer = new HttpEntity<>(transferMoney);
             ResponseEntity<SuccessResponse> resultTransfer = restTemplate.postForEntity(transferUri, requestTransfer, SuccessResponse.class);
             Assertions.assertEquals(HttpStatus.OK, resultTransfer.getStatusCode());
