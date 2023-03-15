@@ -36,11 +36,14 @@
   - `/model/SuccessResponse.java` - сущность, содержащая код операции при успешно проведенной транзакции.
 
 - ### service:
-   - `/service/TransferService.java` - сервис для реализации бизнес-логики.
+   - `/service/TransferServiceImpl.java` - сервис для реализации бизнес-логики.
 
 
 - ### repository:
-  - `/repository/TransferRepository.java` - абстракция доступа к базе данных, в качестве которой выступает `List` для хранения `TransferMoney`, индекс в листе соответствует id операции типа `UUID`.
+  - `/repository/TransferRepositoryImpl.java` - абстракция доступа к базе данных, в качестве которой выступает `Map` для хранения `TransferMoney`, индекс в листе соответствует id операции типа `UUID`.
+
+- ### validation:
+  - `/repository/ValidationService.java` - класс отвечающий за валидацию запросов.
 
 ## Запуск приложения
 

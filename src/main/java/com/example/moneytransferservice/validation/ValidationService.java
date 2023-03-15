@@ -4,8 +4,7 @@ import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
 import com.example.moneytransferservice.exceptions.InternalServerErrorException;
 import com.example.moneytransferservice.model.TransferMoney;
 import com.example.moneytransferservice.model.TransferOperation;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.AllArgsConstructor
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
