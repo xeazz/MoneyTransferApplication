@@ -24,16 +24,16 @@ public class TransferServiceImpl implements TransferService {
 
     public SuccessResponse transfer(TransferMoney transferMoney) {
         validationService.validateTransfer(transferMoney);
-//        if () {
+        if () {
             repository.saveTransaction(generateOperationId(), transferMoney);
 
             log.info("Запрос на перевод денежных средств направлен. Код операции: {}", getOperationId().toString());
             return new SuccessResponse(getOperationId().toString());
-//        }
-//        } else {
-//            log.info("Internal Server Error");
-//            throw new InternalServerErrorException("Internal Server Error");
-//        }
+        }
+        } else {
+            log.info("Internal Server Error");
+            throw new InternalServerErrorException("Internal Server Error");
+        }
     }
 
     public SuccessResponse confirmOperation(TransferOperation operation) {
