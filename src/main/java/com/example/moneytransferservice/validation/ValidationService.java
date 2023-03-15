@@ -37,10 +37,10 @@ public class ValidationService {
             log.error("Номер карты получателя указан неверно!");
             throw new IncorrectInputDataException("Номер карты получателя указан неверно!");
         }
-//        if (transferMoney.getTransferAmount() == null) {
-//            log.error("Ошибка операции перевода!");
-//            throw new InternalServerErrorException("Internal server error");
-//        }
+        if (transferMoney.getAmount() == null) {
+            log.error("Ошибка операции перевода!");
+            throw new InternalServerErrorException("Internal server error");
+        }
         if (transferMoney.getAmount().getValue() == 0) {
             log.error("Сумма перевода указана некорректно!");
             throw new IncorrectInputDataException("Номер карты получателя указан неверно!");

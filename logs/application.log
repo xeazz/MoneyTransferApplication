@@ -1,18 +1,18 @@
-00:56:17.960 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5590beda}
+00:56:17.960 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@5590beda}
 00:56:17.970 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 2144953f-c940-41f6-af96-a932afeb70fd
-00:56:19.782 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@79109507}
+00:56:19.782 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@79109507}
 00:56:19.785 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: d1e65085-4186-4031-b7c6-370527b14044
-00:56:20.371 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@767e2652}
+00:56:20.371 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@767e2652}
 00:56:20.372 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8e98bd6a-fb32-4bd0-944b-81595b155498
-00:56:20.864 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@44b7d596}
+00:56:20.864 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@44b7d596}
 00:56:20.865 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1b80f243-1065-4863-9741-dfc646dff9e8
-00:56:21.358 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@52137855}
+00:56:21.358 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@52137855}
 00:56:21.360 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8d40be43-ac85-4072-9734-6011ab4ff950
-00:56:21.818 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@29e3c429}
+00:56:21.818 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@29e3c429}
 00:56:21.819 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 9474a077-ab25-4255-a127-91da245458da
-00:56:23.320 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5f9ede93}
+00:56:23.320 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@5f9ede93}
 00:56:23.322 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ecf9b029-ef19-409a-8026-d90a73c8c05b
-00:56:23.862 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@6c45d514}
+00:56:23.862 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@6c45d514}
 00:56:23.863 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1ec76fb1-aa31-442a-b6e5-076a5fbd75d1
 01:04:24.813 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 21710 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
 01:04:24.816 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
@@ -25,45 +25,45 @@
 01:04:53.791 [http-nio-5500-exec-2] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
 01:05:03.352 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
 01:05:03.354 [http-nio-5500-exec-3] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
-01:05:07.537 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@730649fc}
+01:05:07.537 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@730649fc}
 01:05:07.537 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 9d96c88e-c142-459d-91b8-226fce8cc3d8
-01:05:08.605 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@7eaaf059}
+01:05:08.605 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@7eaaf059}
 01:05:08.606 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: aee0bab0-9c06-4a17-b41f-f6bc4fcd9c98
-01:05:09.205 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@76826cd8}
+01:05:09.205 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@76826cd8}
 01:05:09.205 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 02438bc2-28ab-4d0c-8a59-7da32a3a5b20
-01:05:09.693 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@123022ad}
+01:05:09.693 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@123022ad}
 01:05:09.694 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: fb6565cb-a9da-41c6-930e-1f04a4d67cfa
-01:05:10.227 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@461941c9}
+01:05:10.227 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@461941c9}
 01:05:10.230 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: dff7d0c0-cef1-4a52-b368-58a9ab16683e
-01:05:10.810 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@1f22fd68}
+01:05:10.810 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@1f22fd68}
 01:05:10.813 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1b66167e-6fa9-4aba-9316-52ef8a45f5dd
-01:05:11.655 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5d6909a9}
+01:05:11.655 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@5d6909a9}
 01:05:11.660 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: d4dbcbe4-7416-4785-8da7-414d2ef8c312
-01:05:12.218 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@d2f725b}
+01:05:12.218 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@d2f725b}
 01:05:12.220 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: eef45eab-8f6d-48e5-b7de-a6c7513c43a8
-01:05:12.636 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@2d181b47}
+01:05:12.636 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@2d181b47}
 01:05:12.638 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 74059f65-110c-4d3c-a6af-5a292881c851
-01:05:13.679 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@10863355}
+01:05:13.679 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@10863355}
 01:05:13.679 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 97d30795-9c15-4f83-bbd4-54c40b9962bf
-01:05:14.294 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@d0a8c96}
+01:05:14.294 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@d0a8c96}
 01:05:14.295 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ece2567b-0176-402b-9bf2-78a1d6053179
-01:05:14.807 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@706d01fc}
+01:05:14.807 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@706d01fc}
 01:05:14.809 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 80768906-3d4e-46e3-8e67-1837d847871e
-01:05:15.288 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@78459c78}
+01:05:15.288 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@78459c78}
 01:05:15.291 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 276b141e-7ec2-48fc-a3a8-31b62355dd13
-01:05:15.728 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@6cdd3cac}
+01:05:15.728 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@6cdd3cac}
 01:05:15.728 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 6c321923-8cdf-4940-b2c1-170755c85da1
-01:05:16.340 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@48dea77a}
+01:05:16.340 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@48dea77a}
 01:05:16.341 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 41acaae1-2e52-43a3-b83e-54ec145190c0
-01:05:17.046 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@50d80ac7}
+01:05:17.046 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@50d80ac7}
 01:05:17.047 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: fdf57ba4-3750-4639-a1ab-d4fc88cdbdc2
-01:05:17.716 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@65597e3b}
+01:05:17.716 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@65597e3b}
 01:05:17.717 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ade599a7-e754-445b-bab2-94c83538a7bc
-01:05:18.588 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@604191fb}
+01:05:18.588 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@604191fb}
 01:05:18.590 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 76e900f3-497c-48c2-aa1c-b074795e3a74
-01:05:19.294 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@23dff094}
+01:05:19.294 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@23dff094}
 01:05:19.300 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 7748d384-bb56-4cc1-bc22-11180874f761
-01:05:19.729 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@14b9a59d}
+01:05:19.729 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@14b9a59d}
 01:05:19.730 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
 01:05:25.321 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
 01:05:25.324 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
@@ -77,15 +77,15 @@
 01:05:27.335 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
 01:05:27.729 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
 01:05:27.729 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:30.534 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@43d4e273}
+01:05:30.534 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@43d4e273}
 01:05:30.538 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 297108d6-50cf-4b29-b417-1d522ce3135a
 01:05:33.267 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
 01:05:33.268 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 297108d6-50cf-4b29-b417-1d522ce3135a
 01:05:34.688 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
 01:05:34.689 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 297108d6-50cf-4b29-b417-1d522ce3135a
-01:05:37.499 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@51bb396e}
+01:05:37.499 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@51bb396e}
 01:05:37.500 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: daf3ec9c-7f99-42a4-a2e1-d88453af2218
-01:05:38.392 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5cd34c98}
+01:05:38.392 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@5cd34c98}
 01:05:38.393 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: f43f5d71-274d-43a0-ae8e-adf0610cf310
 01:05:40.628 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
 01:05:40.629 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: f43f5d71-274d-43a0-ae8e-adf0610cf310
@@ -110,8 +110,8 @@
 01:10:01.538 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.078 seconds (process running for 3.762)
 01:10:01.830 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 01:10:05.844 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:10:05.860 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
+01:10:05.860 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
 	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
 	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
 	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
@@ -170,8 +170,8 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 01:10:12.650 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:10:12.654 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
+01:10:12.654 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
 	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
 	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
 	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
@@ -229,9 +229,9 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-01:10:28.857 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@177e2e5c}
+01:10:28.857 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@177e2e5c}
 01:10:28.865 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8e477a0c-1828-42f6-9b4c-0ad0447ede35
-01:10:29.764 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@70127828}
+01:10:29.764 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@70127828}
 01:10:29.765 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 95d209d0-666d-49b1-8a45-f9244fae78bf
 01:12:30.715 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 22156 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
 01:12:30.717 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
@@ -240,23 +240,23 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 01:12:32.433 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
 01:12:33.201 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.066 seconds (process running for 3.91)
 01:12:33.898 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:12:36.142 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@19a6846e}
+01:12:36.142 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@19a6846e}
 01:12:36.194 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 654d853b-0a34-4cdd-a485-0d69d196844b
-01:12:37.251 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@1de3cd19}
+01:12:37.251 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@1de3cd19}
 01:12:37.251 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 39c327c3-84d2-4489-a251-2a7c7a8279a8
-01:12:37.814 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5566b5e3}
+01:12:37.814 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@5566b5e3}
 01:12:37.816 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: bbaba545-da6d-409f-b385-9a7fd2cae653
-01:12:38.531 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@66bdbe64}
+01:12:38.531 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@66bdbe64}
 01:12:38.532 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: c45f43f9-aec5-47ce-8c5d-183b02b6c1f0
-01:12:38.919 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@434036f7}
+01:12:38.919 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@434036f7}
 01:12:38.920 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 537d541e-2aa0-4a9f-9308-b14c63a82806
-01:12:39.354 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5b574bc0}
+01:12:39.354 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@5b574bc0}
 01:12:39.355 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: cec143f5-d7d1-4f91-8cf3-41bd9ed96ed5
-01:12:39.735 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@3759f8ff}
+01:12:39.735 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.Amount@3759f8ff}
 01:12:39.740 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 44a5018d-1b8f-4e76-93d8-9c3352cc071d
 01:12:54.575 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:12:54.583 [http-nio-5500-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
+01:12:54.583 [http-nio-5500-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
 	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
 	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
 	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
@@ -322,8 +322,8 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 01:13:36.700 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.144 seconds (process running for 3.876)
 01:13:37.355 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 01:13:58.938 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:13:58.960 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
+01:13:58.960 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
 	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
 	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
 	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
@@ -382,8 +382,8 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 01:15:04.604 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:15:04.609 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
+01:15:04.609 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
 	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
 	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
 	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
@@ -449,8 +449,8 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 01:15:18.336 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.499 seconds (process running for 5.464)
 01:15:18.554 [RMI TCP Connection(3)-192.168.0.166] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 01:15:39.149 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:17:41.085 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
+01:17:41.085 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
 	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
 	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
 	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
@@ -515,7 +515,7 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 01:18:25.440 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
 01:18:26.187 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.083 seconds (process running for 3.785)
 01:18:26.598 [RMI TCP Connection(2)-192.168.0.166] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:18:30.109 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{com.example.moneytransferservice.model.TransferAmount@7d7f0f27}
+01:18:30.109 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{com.example.moneytransferservice.model.Amount@7d7f0f27}
 01:18:30.119 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: e44d76fd-fb39-49a9-9b08-c6a71dff24ae
 01:18:30.178 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='e44d76fd-fb39-49a9-9b08-c6a71dff24ae', code='0000'}
 01:18:30.178 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: e44d76fd-fb39-49a9-9b08-c6a71dff24ae
@@ -546,7 +546,7 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 01:34:43.858 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
 01:34:44.567 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.952 seconds (process running for 3.776)
 01:34:45.012 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:34:52.211 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3432424234242343', cardFromValidTill='04/25', cardFromCVV='342', cardToNumber='4324234244234344', transferAmount{com.example.moneytransferservice.model.TransferAmount@17c19}
+01:34:52.211 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3432424234242343', cardFromValidTill='04/25', cardFromCVV='342', cardToNumber='4324234244234344', transferAmount{com.example.moneytransferservice.model.Amount@17c19}
 01:34:52.217 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 0f540e20-b512-473b-bd8c-316a1cc98d21
 01:34:52.264 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='0f540e20-b512-473b-bd8c-316a1cc98d21', code='0000'}
 01:34:52.264 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 0f540e20-b512-473b-bd8c-316a1cc98d21
@@ -558,3 +558,1251 @@ java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.
 01:36:59.401 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.923 seconds (process running for 11.06)
 01:37:01.632 [main] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8fd224c3-e002-4bfe-acc5-c5337ecee097
 01:37:01.755 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: f217b19d-c085-40af-a0b8-ea4ca136a9f6
+07:41:37.691 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 992 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+07:41:37.696 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+07:41:39.551 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+07:41:39.551 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+07:41:39.656 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+07:41:40.431 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.407 seconds (process running for 4.158)
+07:41:40.939 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07:41:55.446 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:41:55.467 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:41:57.455 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:41:57.456 [http-nio-5500-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:41:58.171 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:41:58.173 [http-nio-5500-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:41:58.715 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:41:58.720 [http-nio-5500-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:41:59.200 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:41:59.202 [http-nio-5500-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:42:10.516 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:42:10.520 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:42:11.268 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:42:11.271 [http-nio-5500-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:42:11.722 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:42:11.723 [http-nio-5500-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:42:15.365 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:42:15.370 [http-nio-5500-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null
+	at com.example.moneytransferservice.service.TransferServiceImpl.confirmOperation(TransferServiceImpl.java:44)
+	at com.example.moneytransferservice.controller.TransferController.confirmOperation(TransferController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:42:16.169 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:42:16.176 [http-nio-5500-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null
+	at com.example.moneytransferservice.service.TransferServiceImpl.confirmOperation(TransferServiceImpl.java:44)
+	at com.example.moneytransferservice.controller.TransferController.confirmOperation(TransferController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:42:16.622 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:42:16.624 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null
+	at com.example.moneytransferservice.service.TransferServiceImpl.confirmOperation(TransferServiceImpl.java:44)
+	at com.example.moneytransferservice.controller.TransferController.confirmOperation(TransferController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:43:11.042 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:43:11.043 [http-nio-5500-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:43:11.717 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:43:11.718 [http-nio-5500-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:43:43.558 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4232342342342323', cardFromValidTill='02/32', cardFromCVV='233', cardToNumber='3232323232323232', transferAmount{com.example.moneytransferservice.model.Amount@6a32ca99}
+07:43:43.561 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:43:43.575 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='2c445938-bc8e-4f0d-a68c-4caa80ef2ff5', code='0000'}
+07:43:43.576 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:43:56.018 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:43:56.022 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:43:56.571 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:43:56.576 [http-nio-5500-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:43:58.374 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:43:58.375 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:43:59.160 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:43:59.167 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:43:59.560 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:43:59.561 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:43:59.983 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:43:59.984 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:44:00.300 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:44:00.300 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2c445938-bc8e-4f0d-a68c-4caa80ef2ff5
+07:44:02.805 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:44:02.809 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:44:03.384 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:44:03.387 [http-nio-5500-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:44:03.781 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:44:03.782 [http-nio-5500-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.Amount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getAmount()" is null
+	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
+	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:30)
+	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:45:38.760 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1145 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+07:45:38.766 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+07:45:40.360 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+07:45:40.361 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+07:45:40.447 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+07:45:41.211 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.092 seconds (process running for 3.983)
+07:45:41.992 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07:45:42.944 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:45:42.953 [http-nio-5500-exec-2] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:45:43.990 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:45:43.991 [http-nio-5500-exec-3] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:45:44.702 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:45:44.703 [http-nio-5500-exec-6] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:45:45.536 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{null}
+07:45:45.536 [http-nio-5500-exec-8] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:46:41.433 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1159 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+07:46:41.436 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+07:46:43.058 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+07:46:43.059 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+07:46:43.149 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+07:46:43.896 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.039 seconds (process running for 3.777)
+07:46:44.299 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07:46:53.285 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', Amount{null}
+07:46:53.300 [http-nio-5500-exec-2] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:46:54.158 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', Amount{null}
+07:46:54.159 [http-nio-5500-exec-4] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:47:26.878 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', Amount{null}
+07:47:26.881 [http-nio-5500-exec-5] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+07:47:29.697 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:47:29.703 [http-nio-5500-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null
+	at com.example.moneytransferservice.service.TransferServiceImpl.confirmOperation(TransferServiceImpl.java:40)
+	at com.example.moneytransferservice.controller.TransferController.confirmOperation(TransferController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:47:30.528 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
+07:47:30.532 [http-nio-5500-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.UUID.toString()" because the return value of "com.example.moneytransferservice.service.TransferServiceImpl.getOperationId()" is null
+	at com.example.moneytransferservice.service.TransferServiceImpl.confirmOperation(TransferServiceImpl.java:40)
+	at com.example.moneytransferservice.controller.TransferController.confirmOperation(TransferController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+07:48:20.499 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='6566756657567675', cardFromValidTill='06/26', cardFromCVV='889', cardToNumber='7687686767867867', Amount{com.example.moneytransferservice.model.Amount@1e54ce0f}
+07:48:20.500 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 709ef448-f444-4dce-ab6f-10d6718c1680
+07:48:20.520 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='709ef448-f444-4dce-ab6f-10d6718c1680', code='0000'}
+07:48:20.522 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 709ef448-f444-4dce-ab6f-10d6718c1680

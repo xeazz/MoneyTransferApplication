@@ -3,6 +3,7 @@ package com.example.moneytransferservice.controller;
 import com.example.moneytransferservice.model.SuccessResponse;
 import com.example.moneytransferservice.model.TransferMoney;
 import com.example.moneytransferservice.model.TransferOperation;
+import com.example.moneytransferservice.service.TransferService;
 import com.example.moneytransferservice.service.TransferServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -13,9 +14,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @Slf4j
 public class TransferController {
-    TransferServiceImpl service;
+    TransferService service;
 
-    public TransferController(TransferServiceImpl service) {
+    public TransferController(TransferService service) {
         this.service = service;
     }
 

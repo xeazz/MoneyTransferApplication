@@ -12,7 +12,7 @@ public class TransferMoney {
     private final String cardFromValidTill;
     private final String cardFromCVV;
     private final String cardToNumber;
-    private final TransferAmount amount;
+    private final Amount amount;
 
     @Override
     public String toString() {
@@ -21,7 +21,7 @@ public class TransferMoney {
                 ", cardFromValidTill='" + cardFromValidTill + '\'' +
                 ", cardFromCVV='" + cardFromCVV + '\'' +
                 ", cardToNumber='" + cardToNumber + '\'' +
-                ", transferAmount{" + amount +
+                ", Amount{" + amount +
                 '}';
     }
 }

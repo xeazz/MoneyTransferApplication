@@ -1,12 +1,9 @@
 package com.example.moneytransferservice.service;
 
-import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
-import com.example.moneytransferservice.exceptions.InternalServerErrorException;
 import com.example.moneytransferservice.model.SuccessResponse;
-import com.example.moneytransferservice.model.TransferAmount;
 import com.example.moneytransferservice.model.TransferMoney;
 import com.example.moneytransferservice.model.TransferOperation;
-import com.example.moneytransferservice.repository.TransferRepositoryImpl;
+import com.example.moneytransferservice.repository.TransferRepository;
 import com.example.moneytransferservice.validation.ValidationService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -16,11 +13,11 @@ import java.util.UUID;
 @Service
 @Slf4j
 public class TransferServiceImpl implements TransferService {
-    private final TransferRepositoryImpl repository;
+    private final TransferRepository repository;
     private final ValidationService validationService;
     private UUID operationId;
 
-    public TransferServiceImpl(TransferRepositoryImpl repository, ValidationService validationService) {
+    public TransferServiceImpl(TransferRepository repository, ValidationService validationService) {
         this.repository = repository;
         this.validationService = validationService;
     }

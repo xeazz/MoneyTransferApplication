@@ -3,7 +3,7 @@ package com.example.moneytransferservice.service;
 import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
 import com.example.moneytransferservice.exceptions.InternalServerErrorException;
 import com.example.moneytransferservice.model.*;
-import com.example.moneytransferservice.repository.TransferRepositoryImpl;
+import com.example.moneytransferservice.repository.TransferRepository;
 
 import com.example.moneytransferservice.validation.ValidationService;
 import org.junit.jupiter.api.Test;
@@ -17,7 +17,7 @@ import static org.mockito.Mockito.when;
 public class TransferServiceImplTest {
     TransferServiceImpl service;
     @Mock
-    TransferRepositoryImpl repository;
+    TransferRepository repository;
     @Mock
     ValidationService validationService;
 
@@ -29,7 +29,7 @@ public class TransferServiceImplTest {
     @Test
     public void transferTestFirst_False() {
         TransferMoney transferMoney = new TransferMoney("", "1",
-                "1", "1", new TransferAmount(100, "ru"));
+                "1", "1", new Amount(100, "ru"));
         Mockito.doThrow(IncorrectInputDataException.class).when(validationService).validateTransfer(transferMoney);
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(IncorrectInputDataException.class);
     }
@@ -37,7 +37,7 @@ public class TransferServiceImplTest {
     @Test
     public void transferTestSecond_False() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
-                "1", "1", new TransferAmount(100, "ru"));
+                "1", "1", new Amount(100, "ru"));
         Mockito.doThrow(InternalServerErrorException.class).when(validationService).validateTransfer(transferMoney);
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(InternalServerErrorException.class);
     }
@@ -45,7 +45,7 @@ public class TransferServiceImplTest {
     @Test
     public void transferTestThird_False() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
-                "1", "1", new TransferAmount(100, "rus"));
+                "1", "1", new Amount(100, "rus"));
         when(repository.saveTransaction(service.generateOperationId(), transferMoney)).thenReturn(true);
         Mockito.doNothing().when(validationService).validateTransfer(transferMoney);
         SuccessResponse SuccessResponse = service.transfer(transferMoney);
