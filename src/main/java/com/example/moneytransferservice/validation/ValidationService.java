@@ -17,10 +17,10 @@ public class ValidationService {
     private static final String CODE = "0000";
 
     public void validateTransfer(TransferMoney transferMoney) {
-//        if (transferMoney == null) {
-//            log.error("Ошибка операции перевода!");
-//            throw new InternalServerErrorException("Internal server error");
-//        }
+        if (transferMoney == null) {
+            log.error("Ошибка операции перевода!");
+            throw new InternalServerErrorException("Internal server error");
+        }
         if (transferMoney.getCardFromNumber() == null) {
             log.error("Номер карты отправителя указан неверно!");
             throw new IncorrectInputDataException("Номер карты отправителя указан неверно!");
