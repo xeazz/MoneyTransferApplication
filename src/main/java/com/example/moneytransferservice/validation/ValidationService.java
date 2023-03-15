@@ -11,12 +11,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
-@Getter
 @AllArgsConstructor
 public class ValidationService {
-    private static final String CODE = "0000";
+    private static final String VARIFICATION_CODE = "0000";
 
-    public void validateTransfer(TransferMoney transferMoney) {
+    public boolean validateTransfer(TransferMoney transferMoney) {
         if (transferMoney == null) {
             log.error("Ошибка операции перевода!");
             throw new InternalServerErrorException("Internal server error");
@@ -45,9 +44,10 @@ public class ValidationService {
             log.error("Сумма перевода указана некорректно!");
             throw new IncorrectInputDataException("Сумма перевода указана некорректно!");
         }
+        return true;
     }
 
-    public void validateConfirmOperation(TransferOperation transferOperation) {
+    public boolean validateConfirmOperation(TransferOperation transferOperation) {
         if (transferOperation == null) {
             log.error("Ошибка подтверждения транзакции!");
             throw new InternalServerErrorException("Error transfer, confirmation is null!");
@@ -56,9 +56,10 @@ public class ValidationService {
             log.error("Некорректный ID операции!");
             throw new IncorrectInputDataException("Operation ID is null!");
         }
-        if (!transferOperation.getCode().equals(CODE)) {
+        if (!transferOperation.getCode().equals(VARIFICATION_CODE)) {
             log.error("Неверный код подтверждения: {}", transferOperation.getCode());
             throw new InternalServerErrorException("Транзакция не была проведена!");
         }
+        return true;
     }
 }

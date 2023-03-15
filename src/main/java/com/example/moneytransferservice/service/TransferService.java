@@ -6,5 +6,6 @@ import com.example.moneytransferservice.model.TransferOperation;
 
 public interface TransferService {
     SuccessResponse transfer(TransferMoney transferMoney);
+
     SuccessResponse confirmOperation(TransferOperation operation);
 }

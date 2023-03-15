@@ -24,22 +24,26 @@ public class TransferServiceImpl implements TransferService {
     }
 
     public SuccessResponse transfer(TransferMoney transferMoney) {
-        validationService.validateTransfer(transferMoney);
-        if (!repository.saveTransaction(generateOperationId(), transferMoney)) {
-            log.info("Internal Server Error");
-            throw new InternalServerErrorException("Internal Server Error");
-        } else {
+        if (validationService.validateTransfer(transferMoney)) {
+            repository.saveTransaction(generateOperationId(), transferMoney);
             log.info("Запрос на перевод денежных средств направлен. Код операции: {}", getOperationId().toString());
             return new SuccessResponse(getOperationId().toString());
+        } else {
+            log.info("Ошибка добавления транзакции!");
+            throw new InternalServerErrorException("Internal Server Error");
         }
     }
 
 
     public SuccessResponse confirmOperation(TransferOperation operation) {
         operation.setOperationId(getOperationId().toString());
-        validationService.validateConfirmOperation(operation);
-        log.info("Транзакция успешно проведена! Код операции: {}", getOperationId().toString());
-        return new SuccessResponse(getOperationId().toString());
+        if (validationService.validateConfirmOperation(operation)) {
+            log.info("Транзакция успешно проведена! Код операции: {}", getOperationId().toString());
+            return new SuccessResponse(getOperationId().toString());
+        } else {
+            log.info("Ошибка транзакции!");
+            throw new InternalServerErrorException("Internal Server Error");
+        }
     }
 
     UUID generateOperationId() {

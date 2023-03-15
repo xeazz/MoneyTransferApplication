@@ -11,11 +11,10 @@ public class TransferRepositoryImpl implements TransferRepository {
 
     private final Map<UUID, TransferMoney> mapOperation = new HashMap<>();
 
-    public boolean saveTransaction (UUID operationId,TransferMoney transferMoney) {
+    public boolean saveTransaction(UUID operationId, TransferMoney transferMoney) {
         mapOperation.put(operationId, transferMoney);
         return true;
     }
-
 
 
 }
