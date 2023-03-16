@@ -1,6 +1,5 @@
 package com.example.moneytransferservice.repository;
 
-import com.example.moneytransferservice.model.CardHolder;
 import com.example.moneytransferservice.model.TransferMoney;
 import org.springframework.stereotype.Repository;
 
