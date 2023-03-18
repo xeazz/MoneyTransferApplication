@@ -37,14 +37,16 @@ public class TransferServiceImplTest {
     }
 
     @Test
-    public void transferServiceTestFirst_IncorrectInputDataException() {
+    @DisplayName("Checking for an throw IncorrectInputDataException when calling the transfer method")
+    public void checkingThrowIncorrectInputDataException() {
         TransferMoney transferMoney = null;
         when(validationService.validateTransfer(transferMoney)).thenThrow(IncorrectInputDataException.class);
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(IncorrectInputDataException.class);
     }
 
     @Test
-    public void transferServiceTestFirst_InternalServerErrorException() {
+    @DisplayName("Checking for an throw InternalServerErrorException when calling the transfer method")
+    public void checkingThrowInternalServerErrorException() {
         TransferMoney transferMoney = null;
         when(validationService.validateTransfer(transferMoney)).thenThrow(InternalServerErrorException.class);
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(InternalServerErrorException.class);
@@ -52,7 +54,8 @@ public class TransferServiceImplTest {
 
 
     @Test
-    public void transferServiceTestFirst_SuccessResponse() {
+    @DisplayName("Checking the success of confirm operation by calling the confirmOperation method")
+    public void checkingTheSuccessOfConfirmOperation() {
         TransferOperation transferOperation = new TransferOperation("1111", "0000");
         service.generateOperationId();
         Mockito.when(validationService.validateConfirmOperation(transferOperation)).thenReturn(true);
@@ -61,7 +64,8 @@ public class TransferServiceImplTest {
     }
 
     @Test
-    public void transferServiceTestSecond_SuccessResponse() {
+    @DisplayName("Checking the success of transactions by calling the transfer method")
+    public void checkingTheSuccessOfTransactions() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
                 "1", "1", new Amount(10, "rur"));
         Mockito.when(validationService.validateTransfer(transferMoney)).thenReturn(true);

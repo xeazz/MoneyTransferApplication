@@ -37,14 +37,16 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void transferTestFirst_True() {
+    @DisplayName("If the money transfer request is successful, it should return true")
+    public void allCardDetailsAreEnteredCorrectly() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
                 "1", "1", new Amount(100, "RUR"));
         assertTrue(validationService.validateTransfer(transferMoney));
     }
 
     @Test
-    public void validateTransferTestSecond_True() {
+    @DisplayName("An empty sender card should throw IncorrectInputDataException")
+    public void senderCardIsNull() {
         TransferMoney transferMoney = new TransferMoney(null, "1",
                 "1", "1", new Amount(100, "RUR"));
         assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
@@ -53,7 +55,8 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateTransferTestThird_IncorrectInputDataException() {
+    @DisplayName("An empty expiration date should throw IncorrectInputDataException")
+    public void validTillIsNull() {
         TransferMoney transferMoney = new TransferMoney("1", null,
                 "1", "1", new Amount(100, "RUR"));
         assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
@@ -62,7 +65,8 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateTransferTestFourth_IncorrectInputDataException() {
+    @DisplayName("An empty CVV should throw IncorrectInputDataException")
+    public void cardCvvIsNull() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
                 null, "1", new Amount(100, "RUR"));
         assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
@@ -71,16 +75,18 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateTransferTestFifth_IncorrectInputDataException() {
+    @DisplayName("An empty recipient card should throw IncorrectInputDataException")
+    public void recipientCardIsNull() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
-                null, "1", new Amount(100, "RUR"));
+                "1", null, new Amount(100, "RUR"));
         assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
                 .isInstanceOf(IncorrectInputDataException.class)
-                .hasMessage("CVV указан неверно!");
+                .hasMessage("Номер карты получателя указан неверно!");
     }
 
     @Test
-    public void validateTransferTestSeventh_IncorrectInputDataException() {
+    @DisplayName("If transfer amount value = 0, then should throw IncorrectInputDataException")
+    public void transferAmountValueIsIncorrect() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
                 "1", "1", new Amount(0, "RUR"));
         assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
@@ -89,16 +95,8 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateTransferTestFirst_InternalServerErrorException() {
-        TransferMoney transferMoney = new TransferMoney("1", "1",
-                "1", "1", null);
-        assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
-                .isInstanceOf(InternalServerErrorException.class)
-                .hasMessage("Internal server error");
-    }
-
-    @Test
-    public void validateTransferTestSecond_InternalServerErrorException() {
+    @DisplayName("If request on transfer money = null, then should throw InternalServerErrorException")
+    public void transferMoneyIsNull() {
         TransferMoney transferMoney = null;
         assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
                 .isInstanceOf(InternalServerErrorException.class)
@@ -106,13 +104,26 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateConfirmOperationTestFirst_True() {
+    @DisplayName("If amount transfer = null, then should throw InternalServerErrorException")
+    public void amountIsNull() {
+        TransferMoney transferMoney = new TransferMoney("1", "1",
+                "1", "1", null);
+        assertThatThrownBy(() -> validationService.validateTransfer(transferMoney))
+                .isInstanceOf(InternalServerErrorException.class)
+                .hasMessage("Internal server error");
+    }
+
+
+    @Test
+    @DisplayName("If the transaction was successful, it should return true")
+    public void successfulTransactionConfirmation() {
         TransferOperation transferOperation = new TransferOperation("111", "0000");
         assertTrue(validationService.validateConfirmOperation(transferOperation));
     }
 
     @Test
-    public void validateConfirmOperationTestFirst_IncorrectInputDataException() {
+    @DisplayName("An empty operation id should throw IncorrectInputDataException")
+    public void operationIdIsNull() {
         TransferOperation transferOperation = new TransferOperation(null, "0000");
         assertThatThrownBy(() -> validationService.validateConfirmOperation(transferOperation))
                 .isInstanceOf(IncorrectInputDataException.class)
@@ -120,7 +131,8 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateConfirmOperationTestFirst_InternalServerErrorException() {
+    @DisplayName("An empty o transfer operation confirm should throw InternalServerErrorException")
+    public void transferOperationIsNull() {
         TransferOperation transferOperation = null;
         assertThatThrownBy(() -> validationService.validateConfirmOperation(transferOperation))
                 .isInstanceOf(InternalServerErrorException.class)
@@ -128,7 +140,8 @@ public class ValidationServiceTest {
     }
 
     @Test
-    public void validateConfirmOperationTestSecond_InternalServerErrorException() {
+    @DisplayName("An incorrect validation code should throw InternalServerErrorException")
+    public void invalidConfirmationCode() {
         TransferOperation transferOperation = new TransferOperation("111", "0001");
         assertThatThrownBy(() -> validationService.validateConfirmOperation(transferOperation))
                 .isInstanceOf(InternalServerErrorException.class)
