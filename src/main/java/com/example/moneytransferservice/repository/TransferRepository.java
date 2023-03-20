@@ -5,5 +5,5 @@ import com.example.moneytransferservice.model.TransferMoney;
 import java.util.UUID;
 
 public interface TransferRepository {
-    void saveTransaction (UUID operationId, TransferMoney transferMoney);
+    UUID saveTransaction(TransferMoney transferMoney);
 }

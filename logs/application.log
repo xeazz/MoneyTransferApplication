@@ -1,560 +1,254 @@
-00:56:17.960 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5590beda}
-00:56:17.970 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 2144953f-c940-41f6-af96-a932afeb70fd
-00:56:19.782 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@79109507}
-00:56:19.785 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: d1e65085-4186-4031-b7c6-370527b14044
-00:56:20.371 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@767e2652}
-00:56:20.372 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8e98bd6a-fb32-4bd0-944b-81595b155498
-00:56:20.864 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@44b7d596}
-00:56:20.865 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1b80f243-1065-4863-9741-dfc646dff9e8
-00:56:21.358 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@52137855}
-00:56:21.360 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8d40be43-ac85-4072-9734-6011ab4ff950
-00:56:21.818 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@29e3c429}
-00:56:21.819 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 9474a077-ab25-4255-a127-91da245458da
-00:56:23.320 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5f9ede93}
-00:56:23.322 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ecf9b029-ef19-409a-8026-d90a73c8c05b
-00:56:23.862 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@6c45d514}
-00:56:23.863 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1ec76fb1-aa31-442a-b6e5-076a5fbd75d1
-01:04:24.813 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 21710 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:04:24.816 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:04:26.468 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:04:26.469 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:04:26.561 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:04:27.396 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.168 seconds (process running for 3.927)
-01:04:28.047 [RMI TCP Connection(1)-192.168.0.166] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:04:53.786 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:04:53.791 [http-nio-5500-exec-2] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
-01:05:03.352 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:05:03.354 [http-nio-5500-exec-3] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
-01:05:07.537 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@730649fc}
-01:05:07.537 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 9d96c88e-c142-459d-91b8-226fce8cc3d8
-01:05:08.605 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@7eaaf059}
-01:05:08.606 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: aee0bab0-9c06-4a17-b41f-f6bc4fcd9c98
-01:05:09.205 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@76826cd8}
-01:05:09.205 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 02438bc2-28ab-4d0c-8a59-7da32a3a5b20
-01:05:09.693 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@123022ad}
-01:05:09.694 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: fb6565cb-a9da-41c6-930e-1f04a4d67cfa
-01:05:10.227 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@461941c9}
-01:05:10.230 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: dff7d0c0-cef1-4a52-b368-58a9ab16683e
-01:05:10.810 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@1f22fd68}
-01:05:10.813 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1b66167e-6fa9-4aba-9316-52ef8a45f5dd
-01:05:11.655 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5d6909a9}
-01:05:11.660 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: d4dbcbe4-7416-4785-8da7-414d2ef8c312
-01:05:12.218 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@d2f725b}
-01:05:12.220 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: eef45eab-8f6d-48e5-b7de-a6c7513c43a8
-01:05:12.636 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@2d181b47}
-01:05:12.638 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 74059f65-110c-4d3c-a6af-5a292881c851
-01:05:13.679 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@10863355}
-01:05:13.679 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 97d30795-9c15-4f83-bbd4-54c40b9962bf
-01:05:14.294 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@d0a8c96}
-01:05:14.295 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ece2567b-0176-402b-9bf2-78a1d6053179
-01:05:14.807 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@706d01fc}
-01:05:14.809 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 80768906-3d4e-46e3-8e67-1837d847871e
-01:05:15.288 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@78459c78}
-01:05:15.291 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 276b141e-7ec2-48fc-a3a8-31b62355dd13
-01:05:15.728 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@6cdd3cac}
-01:05:15.728 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 6c321923-8cdf-4940-b2c1-170755c85da1
-01:05:16.340 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@48dea77a}
-01:05:16.341 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 41acaae1-2e52-43a3-b83e-54ec145190c0
-01:05:17.046 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@50d80ac7}
-01:05:17.047 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: fdf57ba4-3750-4639-a1ab-d4fc88cdbdc2
-01:05:17.716 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@65597e3b}
-01:05:17.717 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ade599a7-e754-445b-bab2-94c83538a7bc
-01:05:18.588 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@604191fb}
-01:05:18.590 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 76e900f3-497c-48c2-aa1c-b074795e3a74
-01:05:19.294 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@23dff094}
-01:05:19.300 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 7748d384-bb56-4cc1-bc22-11180874f761
-01:05:19.729 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@14b9a59d}
-01:05:19.730 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:25.321 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:25.324 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:26.030 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:26.031 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:26.497 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:26.498 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:26.921 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:26.922 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:27.335 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:27.335 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:27.729 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:27.729 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 800fda51-0307-4e43-bb0b-321f32d3206b
-01:05:30.534 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@43d4e273}
-01:05:30.538 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 297108d6-50cf-4b29-b417-1d522ce3135a
-01:05:33.267 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:33.268 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 297108d6-50cf-4b29-b417-1d522ce3135a
-01:05:34.688 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:34.689 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 297108d6-50cf-4b29-b417-1d522ce3135a
-01:05:37.499 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@51bb396e}
-01:05:37.500 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: daf3ec9c-7f99-42a4-a2e1-d88453af2218
-01:05:38.392 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5cd34c98}
-01:05:38.393 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: f43f5d71-274d-43a0-ae8e-adf0610cf310
-01:05:40.628 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='4fe32c4b-c747-4c2e-b608-b09680221e65', code='0000'}
-01:05:40.629 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: f43f5d71-274d-43a0-ae8e-adf0610cf310
-01:05:43.168 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:05:43.171 [http-nio-5500-exec-7] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
-01:08:49.305 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 21950 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:08:49.309 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:08:50.924 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:08:50.925 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:08:51.035 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:08:51.793 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.118 seconds (process running for 4.02)
-01:08:52.499 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:08:53.127 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:08:53.132 [http-nio-5500-exec-1] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
-01:08:55.027 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:08:55.028 [http-nio-5500-exec-2] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
-01:09:59.092 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 22017 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:09:59.096 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:10:00.668 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:10:00.669 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:10:00.758 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:10:01.538 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.078 seconds (process running for 3.762)
-01:10:01.830 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:10:05.844 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:10:05.860 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
-	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
-	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
-	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-01:10:12.650 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:10:12.654 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
-	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
-	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
-	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-01:10:28.857 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@177e2e5c}
-01:10:28.865 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8e477a0c-1828-42f6-9b4c-0ad0447ede35
-01:10:29.764 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@70127828}
-01:10:29.765 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 95d209d0-666d-49b1-8a45-f9244fae78bf
-01:12:30.715 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 22156 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:12:30.717 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:12:32.346 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:12:32.347 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:12:32.433 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:12:33.201 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.066 seconds (process running for 3.91)
-01:12:33.898 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:12:36.142 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@19a6846e}
-01:12:36.194 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 654d853b-0a34-4cdd-a485-0d69d196844b
-01:12:37.251 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@1de3cd19}
-01:12:37.251 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 39c327c3-84d2-4489-a251-2a7c7a8279a8
-01:12:37.814 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5566b5e3}
-01:12:37.816 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: bbaba545-da6d-409f-b385-9a7fd2cae653
-01:12:38.531 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@66bdbe64}
-01:12:38.532 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: c45f43f9-aec5-47ce-8c5d-183b02b6c1f0
-01:12:38.919 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@434036f7}
-01:12:38.920 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 537d541e-2aa0-4a9f-9308-b14c63a82806
-01:12:39.354 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@5b574bc0}
-01:12:39.355 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: cec143f5-d7d1-4f91-8cf3-41bd9ed96ed5
-01:12:39.735 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='4875130166305242', cardFromValidTill='05/26', cardFromCVV='123', cardToNumber='4832137002407281', transferAmount{com.example.moneytransferservice.model.TransferAmount@3759f8ff}
-01:12:39.740 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 44a5018d-1b8f-4e76-93d8-9c3352cc071d
-01:12:54.575 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:12:54.583 [http-nio-5500-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
-	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
-	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
-	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-01:13:34.158 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 22218 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:13:34.161 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:13:35.822 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:13:35.823 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:13:35.918 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:13:36.700 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.144 seconds (process running for 3.876)
-01:13:37.355 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:13:58.938 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:13:58.960 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
-	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
-	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
-	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-01:15:04.604 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:15:04.609 [http-nio-5500-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
-	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
-	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
-	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-01:15:15.509 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 22307 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:15:15.512 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:15:17.326 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:15:17.327 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:15:17.415 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:15:18.336 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.499 seconds (process running for 5.464)
-01:15:18.554 [RMI TCP Connection(3)-192.168.0.166] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:15:39.149 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{null}
-01:17:41.085 [http-nio-5500-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.example.moneytransferservice.model.TransferAmount.getValue()" because the return value of "com.example.moneytransferservice.model.TransferMoney.getTransferAmount()" is null
-	at com.example.moneytransferservice.validation.ValidationService.validateTransfer(ValidationService.java:44)
-	at com.example.moneytransferservice.service.TransferServiceImpl.transfer(TransferServiceImpl.java:29)
-	at com.example.moneytransferservice.controller.TransferController.transfer(TransferController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-01:18:23.709 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 22488 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:18:23.726 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:18:25.348 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:18:25.348 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:18:25.440 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:18:26.187 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.083 seconds (process running for 3.785)
-01:18:26.598 [RMI TCP Connection(2)-192.168.0.166] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:18:30.109 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3234234234234234', cardFromValidTill='05/24', cardFromCVV='333', cardToNumber='3434242342342343', transferAmount{com.example.moneytransferservice.model.TransferAmount@7d7f0f27}
-01:18:30.119 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: e44d76fd-fb39-49a9-9b08-c6a71dff24ae
-01:18:30.178 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='e44d76fd-fb39-49a9-9b08-c6a71dff24ae', code='0000'}
-01:18:30.178 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: e44d76fd-fb39-49a9-9b08-c6a71dff24ae
-01:29:07.921 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 23090 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:29:07.924 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
-01:29:10.230 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:29:10.231 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:29:10.359 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:29:11.333 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.937 seconds (process running for 13.659)
-01:29:59.630 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 23182 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:29:59.634 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
-01:30:01.913 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:30:01.914 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:30:01.996 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:30:02.904 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.791 seconds (process running for 10.858)
-01:30:05.036 [main] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8fd8c01d-d925-4624-95bf-94a79787ac2d
-01:30:05.148 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 6b82f079-15d8-4bb4-b58c-b8ee191e0650
-01:34:29.351 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 23500 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:34:29.353 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
-01:34:31.668 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:34:31.669 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:34:31.771 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:34:32.744 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.904 seconds (process running for 11.191)
-01:34:42.230 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 23544 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:34:42.234 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-01:34:43.767 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:34:43.769 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:34:43.858 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:34:44.567 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.952 seconds (process running for 3.776)
-01:34:45.012 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-01:34:52.211 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3432424234242343', cardFromValidTill='04/25', cardFromCVV='342', cardToNumber='4324234244234344', transferAmount{com.example.moneytransferservice.model.TransferAmount@17c19}
-01:34:52.217 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 0f540e20-b512-473b-bd8c-316a1cc98d21
-01:34:52.264 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation{operationId='0f540e20-b512-473b-bd8c-316a1cc98d21', code='0000'}
-01:34:52.264 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 0f540e20-b512-473b-bd8c-316a1cc98d21
-01:36:56.020 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 23689 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-01:36:56.025 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
-01:36:58.419 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-01:36:58.420 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-01:36:58.511 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-01:36:59.401 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.923 seconds (process running for 11.06)
-01:37:01.632 [main] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 8fd224c3-e002-4bfe-acc5-c5337ecee097
-01:37:01.755 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: f217b19d-c085-40af-a0b8-ea4ca136a9f6
+00:00:12.631 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1769 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:00:12.638 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+00:00:14.278 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:00:14.278 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:00:14.354 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:00:15.113 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.069 seconds (process running for 3.746)
+00:00:15.676 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:00:29.784 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=5453345345435345, cardFromValidTill=05/25, cardFromCVV=543, cardToNumber=4324234243243242, amount=Amount[value=444000, currency=RUR]]
+00:00:29.804 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 303b92fe-31a4-425d-8068-de330d5fbbd5
+00:00:29.852 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation(operationId=303b92fe-31a4-425d-8068-de330d5fbbd5, code=0000)
+00:00:29.853 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 303b92fe-31a4-425d-8068-de330d5fbbd5
+00:07:02.912 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1854 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:07:02.918 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+00:07:04.506 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:07:04.507 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:07:04.599 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:07:05.428 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.117 seconds (process running for 3.958)
+00:07:06.111 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:07:11.091 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:11.128 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1244bae1-3e3b-4c13-9c24-ffa4f7f7f6e0
+00:07:11.855 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:11.856 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 7ffc0890-126d-4371-93fe-f23272f9c88d
+00:07:12.557 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:12.558 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: b9e0e8f7-0c95-429d-8a65-36e6980d1f30
+00:07:13.212 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:13.213 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: faacb2eb-a118-4761-9375-e38dee73541a
+00:07:13.934 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:13.935 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: bad5cc1c-e3a1-48fd-a328-2e0ffc0a8e6b
+00:07:14.645 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:14.646 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 56a354c2-e29e-444c-8b40-7e78b0387922
+00:07:15.584 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:15.587 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ca28965a-9d21-4fb4-b52c-1c22910ea403
+00:07:16.371 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:16.373 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: e0ef97cf-4d3d-4549-9254-09b6c45349aa
+00:07:34.838 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4333434343343443, cardFromValidTill=04/27, cardFromCVV=434, cardToNumber=4334344343434343, amount=Amount[value=44400, currency=RUR]]
+00:07:34.839 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 41132330-5177-40d9-8476-1977349a21f8
+00:07:34.854 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation(operationId=41132330-5177-40d9-8476-1977349a21f8, code=0000)
+00:07:34.855 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 41132330-5177-40d9-8476-1977349a21f8
+00:07:57.835 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=3434334343434433, cardFromValidTill=02/27, cardFromCVV=433, cardToNumber=4334344343434343, amount=Amount[value=434400, currency=RUR]]
+00:07:57.837 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: fe9c4225-9604-4a07-9b39-982b8ce14075
+00:07:57.856 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation(operationId=fe9c4225-9604-4a07-9b39-982b8ce14075, code=0000)
+00:07:57.857 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: fe9c4225-9604-4a07-9b39-982b8ce14075
+00:10:31.989 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1870 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:10:31.994 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+00:10:33.581 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:10:33.581 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:10:33.674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:10:34.436 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.056 seconds (process running for 3.916)
+00:10:35.102 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:10:52.831 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4334343434434343, cardFromValidTill=02/26, cardFromCVV=444, cardToNumber=4343534534543534, amount=Amount[value=434000, currency=RUR]]
+00:10:52.854 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 4346c113-4173-42ef-a65a-80e851fd202e
+00:10:52.898 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=4346c113-4173-42ef-a65a-80e851fd202e, code=0000]
+00:10:52.899 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 4346c113-4173-42ef-a65a-80e851fd202e
+00:11:12.110 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4334543545453453, cardFromValidTill=02/27, cardFromCVV=444, cardToNumber=5345345355435545, amount=Amount[value=444400, currency=RUR]]
+00:11:12.113 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 28b1264d-1d5a-4949-9d7c-77626a1340ee
+00:11:12.126 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=28b1264d-1d5a-4949-9d7c-77626a1340ee, code=0000]
+00:11:12.126 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 28b1264d-1d5a-4949-9d7c-77626a1340ee
+00:24:25.441 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 2805 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:24:25.444 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:24:27.757 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:24:27.758 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:24:27.864 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:24:28.919 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.997 seconds (process running for 11.066)
+00:25:01.689 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 2856 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:25:01.700 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:25:03.947 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:25:03.949 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:25:04.048 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:25:04.975 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.811 seconds (process running for 10.789)
+00:25:26.529 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 2904 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:25:26.533 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:25:28.848 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:25:28.849 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:25:28.957 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:25:29.893 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.865 seconds (process running for 10.917)
+00:34:57.569 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 3485 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:34:57.571 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:34:59.509 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:34:59.510 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:34:59.623 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:35:00.428 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.267 seconds (process running for 9.713)
+00:35:48.511 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 3546 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:35:48.515 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:35:50.374 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:35:50.375 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:35:50.460 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:35:51.254 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.197 seconds (process running for 9.557)
+00:36:23.484 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 3600 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:36:23.486 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:36:25.313 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:36:25.314 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:36:25.398 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:36:26.157 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.108 seconds (process running for 9.571)
+00:42:51.303 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4165 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:42:51.305 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:42:53.216 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:42:53.217 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:42:53.298 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:42:54.043 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.156 seconds (process running for 9.795)
+00:45:58.586 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4349 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:45:58.588 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:46:00.484 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:46:00.485 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:46:00.575 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:46:01.278 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.089 seconds (process running for 9.411)
+00:46:22.466 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4391 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:46:22.484 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:46:24.423 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:46:24.424 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:46:24.509 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:46:25.322 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.272 seconds (process running for 9.52)
+00:46:49.337 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4432 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:46:49.343 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:46:51.234 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:46:51.235 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:46:51.314 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:46:52.138 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.228 seconds (process running for 9.458)
+00:51:11.323 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4682 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:51:11.327 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:51:13.173 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:51:13.173 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:51:13.269 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:51:14.064 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.177 seconds (process running for 9.738)
+00:51:52.606 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4739 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:51:52.608 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:51:54.616 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:51:54.617 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:51:54.697 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:51:55.570 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.39 seconds (process running for 9.74)
+00:52:21.821 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4782 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:52:21.824 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:52:23.745 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:52:23.746 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:52:23.833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:52:24.834 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.426 seconds (process running for 9.701)
+00:52:45.497 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4821 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:52:45.501 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:52:47.385 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:52:47.386 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:52:47.470 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:52:48.235 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.175 seconds (process running for 9.373)
+00:53:48.448 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4895 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:53:48.451 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:53:50.366 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:53:50.367 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:53:50.456 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:53:51.422 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.398 seconds (process running for 9.736)
+00:54:28.615 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4950 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:54:28.618 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:54:30.500 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:54:30.501 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:54:30.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:54:31.405 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.218 seconds (process running for 9.448)
+00:54:59.177 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4995 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:54:59.199 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:55:01.096 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:55:01.097 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:55:01.184 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:55:01.991 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.223 seconds (process running for 9.468)
+00:58:21.704 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5186 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:58:21.707 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:58:23.667 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:58:23.668 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:58:23.745 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:58:24.893 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.628 seconds (process running for 10.178)
+01:01:47.014 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5380 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:01:47.017 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:01:48.952 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:01:48.953 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:01:49.049 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:01:49.837 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.233 seconds (process running for 9.527)
+01:02:10.988 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5433 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:02:10.991 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:02:12.847 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:02:12.848 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:02:12.935 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:02:13.739 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.184 seconds (process running for 9.503)
+01:04:59.517 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5608 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:04:59.521 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:05:01.374 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:05:01.375 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:05:01.453 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:05:02.257 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.17 seconds (process running for 9.697)
+01:05:21.630 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5646 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:05:21.633 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:05:23.564 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:05:23.565 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:05:23.654 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:05:24.446 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.245 seconds (process running for 9.446)
+01:07:27.308 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5772 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:07:27.311 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:07:29.166 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:07:29.167 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:07:29.253 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:07:30.075 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.173 seconds (process running for 9.522)
+01:07:50.194 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5809 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:07:50.199 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:07:52.067 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:07:52.067 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:07:52.150 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:07:53.187 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.406 seconds (process running for 9.644)
+01:08:18.548 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5854 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:08:18.552 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:08:20.404 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:08:20.405 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:08:20.490 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:08:21.452 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.338 seconds (process running for 9.709)
+01:08:54.223 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5906 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:08:54.226 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:08:56.123 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:08:56.124 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:08:56.204 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:08:57.178 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.4 seconds (process running for 9.626)
+01:10:21.785 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6003 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:10:21.786 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:10:23.736 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:10:23.737 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:10:23.826 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:10:24.634 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.277 seconds (process running for 9.852)
+01:10:53.378 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6050 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:10:53.380 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:10:55.310 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:10:55.311 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:10:55.394 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:10:56.135 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.182 seconds (process running for 9.407)
+01:11:59.721 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6124 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:11:59.723 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:12:01.684 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:12:01.685 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:12:01.770 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:12:02.504 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.196 seconds (process running for 9.483)
+01:12:16.783 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6159 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:12:16.785 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:12:18.703 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:12:18.704 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:12:18.781 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:12:19.603 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.254 seconds (process running for 9.543)
+03:06:33.539 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 12313 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+03:06:33.541 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+03:06:35.839 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:06:35.840 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+03:06:35.945 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:06:36.914 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.887 seconds (process running for 11.6)
+03:08:51.065 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 12462 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+03:08:51.075 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+03:08:52.707 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:08:52.708 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+03:08:52.792 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:08:53.658 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.203 seconds (process running for 4.05)
+03:08:54.267 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:09:06.227 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4334334343434343, cardFromValidTill=05/26, cardFromCVV=543, cardToNumber=4334534534545345, amount=Amount[value=323200, currency=RUR]]
+03:09:06.249 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 2038bac1-8464-4d40-bdf9-1ee5ee95ab3e
+03:09:06.287 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=2038bac1-8464-4d40-bdf9-1ee5ee95ab3e, code=0000]
+03:09:06.288 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2038bac1-8464-4d40-bdf9-1ee5ee95ab3e

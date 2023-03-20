@@ -1,5 +1,6 @@
 package com.example.moneytransferservice.model;
 
-public record SuccessResponse (String operationId){
+public record Amount(int value, String currency) {
 }
+
 
