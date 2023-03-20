@@ -4,6 +4,7 @@ import com.example.moneytransferservice.model.SuccessResponse;
 import com.example.moneytransferservice.model.TransferMoney;
 import com.example.moneytransferservice.model.TransferOperation;
 import com.example.moneytransferservice.service.TransferService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,12 +12,9 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "${cors_url}")
 @RestController
 @Slf4j
+@RequiredArgsConstructor
 public class TransferController {
     private final TransferService service;
-
-    public TransferController(TransferService service) {
-        this.service = service;
-    }
 
     @PostMapping("/transfer")
     public ResponseEntity<SuccessResponse> transfer(@RequestBody TransferMoney transferMoney) {

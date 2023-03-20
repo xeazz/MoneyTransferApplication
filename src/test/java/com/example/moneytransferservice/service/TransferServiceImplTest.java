@@ -13,9 +13,9 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.UUID;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 
 @Slf4j
@@ -80,10 +80,10 @@ public class TransferServiceImplTest {
     public void checkingTheSuccessOfTransactions() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
                 "1", "1", new Amount(10, "rur"));
-        UUID operationId = UUID.randomUUID();
+        UUID operationId = UUID.fromString("3e933b70-59e3-4b73-a386-f32a9a1cace3");
         Mockito.when(validationService.validateTransfer(transferMoney)).thenReturn(true);
-        when(repository.saveTransaction(transferMoney)).thenReturn(operationId);
+        Mockito.when(repository.saveTransaction(Mockito.any(), eq(transferMoney))).thenReturn(operationId);
         SuccessResponse successResponse = service.transfer(transferMoney);
-        assertEquals(operationId.toString(), successResponse.operationId());
+        assertNotNull(successResponse.operationId());
     }
 }

@@ -16,6 +16,7 @@ public class ValidationService {
     private static final String VARIFICATION_CODE = "0000";
 
     public boolean validateTransfer(TransferMoney transferMoney) {
+
         if (transferMoney == null) {
             log.error("Ошибка операции перевода!");
             throw new InternalServerErrorException("Internal server error");
