@@ -1,8 +1,5 @@
-package com.example.moneytransferservice.exceptions;
+package com.example.moneytransferservice.exception;
 
-import lombok.Getter;
-
-@Getter
 public class InternalServerErrorException extends RuntimeException {
     public InternalServerErrorException(String msg) {
         super(msg);

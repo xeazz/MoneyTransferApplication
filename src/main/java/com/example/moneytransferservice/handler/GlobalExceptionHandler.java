@@ -1,7 +1,7 @@
 package com.example.moneytransferservice.handler;
 
-import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
-import com.example.moneytransferservice.exceptions.InternalServerErrorException;
+import com.example.moneytransferservice.exception.IncorrectInputDataException;
+import com.example.moneytransferservice.exception.InternalServerErrorException;
 import com.example.moneytransferservice.model.ErrorResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

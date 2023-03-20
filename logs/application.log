@@ -1,85 +1,254 @@
-19:08:25.784 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1569 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-19:08:25.792 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-19:08:27.781 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-19:08:27.782 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-19:08:27.898 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-19:08:28.798 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.68 seconds (process running for 4.635)
-19:08:29.878 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-19:08:30.726 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1571 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-19:08:30.730 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-19:08:32.551 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-19:08:32.552 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-19:08:32.659 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-19:08:33.623 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-19:08:33.669 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 5500 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 5500 or configure this application to listen on another port.
-
-19:08:56.163 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1576 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-19:08:56.167 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-19:08:57.720 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-19:08:57.721 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-19:08:57.801 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-19:08:58.547 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.046 seconds (process running for 3.759)
-19:08:58.911 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-19:09:29.579 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1583 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
-19:09:29.583 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
-19:09:31.449 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-19:09:31.450 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
-19:09:31.557 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-19:09:32.431 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.627 seconds (process running for 4.665)
-19:09:32.706 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-19:09:59.526 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney{cardFromNumber='3242342342343423', cardFromValidTill='06/25', cardFromCVV='323', cardToNumber='2313123213123123', Amount{Amount{value=100000, currency='RUR'}}
-19:22:32.594 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: d85df509-87ee-4162-a4c1-3cb695f8306f
-19:22:32.606 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-19:22:32.614 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-19:22:32.616 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-19:22:32.618 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-19:22:32.620 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-19:22:32.621 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-19:22:32.622 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=50941] throws
-java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
-	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:413)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+00:00:12.631 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1769 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:00:12.638 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+00:00:14.278 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:00:14.278 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:00:14.354 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:00:15.113 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.069 seconds (process running for 3.746)
+00:00:15.676 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:00:29.784 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=5453345345435345, cardFromValidTill=05/25, cardFromCVV=543, cardToNumber=4324234243243242, amount=Amount[value=444000, currency=RUR]]
+00:00:29.804 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 303b92fe-31a4-425d-8068-de330d5fbbd5
+00:00:29.852 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation(operationId=303b92fe-31a4-425d-8068-de330d5fbbd5, code=0000)
+00:00:29.853 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 303b92fe-31a4-425d-8068-de330d5fbbd5
+00:07:02.912 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1854 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:07:02.918 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+00:07:04.506 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:07:04.507 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:07:04.599 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:07:05.428 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.117 seconds (process running for 3.958)
+00:07:06.111 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:07:11.091 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:11.128 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 1244bae1-3e3b-4c13-9c24-ffa4f7f7f6e0
+00:07:11.855 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:11.856 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 7ffc0890-126d-4371-93fe-f23272f9c88d
+00:07:12.557 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:12.558 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: b9e0e8f7-0c95-429d-8a65-36e6980d1f30
+00:07:13.212 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:13.213 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: faacb2eb-a118-4761-9375-e38dee73541a
+00:07:13.934 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:13.935 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: bad5cc1c-e3a1-48fd-a328-2e0ffc0a8e6b
+00:07:14.645 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:14.646 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 56a354c2-e29e-444c-8b40-7e78b0387922
+00:07:15.584 [http-nio-5500-exec-8] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:15.587 [http-nio-5500-exec-8] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ca28965a-9d21-4fb4-b52c-1c22910ea403
+00:07:16.371 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+00:07:16.373 [http-nio-5500-exec-9] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: e0ef97cf-4d3d-4549-9254-09b6c45349aa
+00:07:34.838 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4333434343343443, cardFromValidTill=04/27, cardFromCVV=434, cardToNumber=4334344343434343, amount=Amount[value=44400, currency=RUR]]
+00:07:34.839 [http-nio-5500-exec-10] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 41132330-5177-40d9-8476-1977349a21f8
+00:07:34.854 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation(operationId=41132330-5177-40d9-8476-1977349a21f8, code=0000)
+00:07:34.855 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 41132330-5177-40d9-8476-1977349a21f8
+00:07:57.835 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=3434334343434433, cardFromValidTill=02/27, cardFromCVV=433, cardToNumber=4334344343434343, amount=Amount[value=434400, currency=RUR]]
+00:07:57.837 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: fe9c4225-9604-4a07-9b39-982b8ce14075
+00:07:57.856 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation(operationId=fe9c4225-9604-4a07-9b39-982b8ce14075, code=0000)
+00:07:57.857 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: fe9c4225-9604-4a07-9b39-982b8ce14075
+00:10:31.989 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1870 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:10:31.994 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+00:10:33.581 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:10:33.581 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:10:33.674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:10:34.436 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.056 seconds (process running for 3.916)
+00:10:35.102 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:10:52.831 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4334343434434343, cardFromValidTill=02/26, cardFromCVV=444, cardToNumber=4343534534543534, amount=Amount[value=434000, currency=RUR]]
+00:10:52.854 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 4346c113-4173-42ef-a65a-80e851fd202e
+00:10:52.898 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=4346c113-4173-42ef-a65a-80e851fd202e, code=0000]
+00:10:52.899 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 4346c113-4173-42ef-a65a-80e851fd202e
+00:11:12.110 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4334543545453453, cardFromValidTill=02/27, cardFromCVV=444, cardToNumber=5345345355435545, amount=Amount[value=444400, currency=RUR]]
+00:11:12.113 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 28b1264d-1d5a-4949-9d7c-77626a1340ee
+00:11:12.126 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=28b1264d-1d5a-4949-9d7c-77626a1340ee, code=0000]
+00:11:12.126 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 28b1264d-1d5a-4949-9d7c-77626a1340ee
+00:24:25.441 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 2805 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:24:25.444 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:24:27.757 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:24:27.758 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:24:27.864 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:24:28.919 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.997 seconds (process running for 11.066)
+00:25:01.689 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 2856 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:25:01.700 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:25:03.947 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:25:03.949 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:25:04.048 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:25:04.975 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.811 seconds (process running for 10.789)
+00:25:26.529 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 2904 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:25:26.533 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:25:28.848 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:25:28.849 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:25:28.957 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:25:29.893 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.865 seconds (process running for 10.917)
+00:34:57.569 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 3485 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:34:57.571 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:34:59.509 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:34:59.510 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:34:59.623 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:35:00.428 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.267 seconds (process running for 9.713)
+00:35:48.511 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 3546 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:35:48.515 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:35:50.374 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:35:50.375 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:35:50.460 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:35:51.254 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.197 seconds (process running for 9.557)
+00:36:23.484 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 3600 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:36:23.486 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:36:25.313 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:36:25.314 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:36:25.398 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:36:26.157 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.108 seconds (process running for 9.571)
+00:42:51.303 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4165 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:42:51.305 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:42:53.216 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:42:53.217 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:42:53.298 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:42:54.043 [main] INFO  c.e.m.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.156 seconds (process running for 9.795)
+00:45:58.586 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4349 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:45:58.588 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:46:00.484 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:46:00.485 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:46:00.575 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:46:01.278 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.089 seconds (process running for 9.411)
+00:46:22.466 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4391 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:46:22.484 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:46:24.423 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:46:24.424 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:46:24.509 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:46:25.322 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.272 seconds (process running for 9.52)
+00:46:49.337 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4432 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:46:49.343 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:46:51.234 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:46:51.235 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:46:51.314 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:46:52.138 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.228 seconds (process running for 9.458)
+00:51:11.323 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4682 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:51:11.327 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:51:13.173 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:51:13.173 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:51:13.269 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:51:14.064 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.177 seconds (process running for 9.738)
+00:51:52.606 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4739 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:51:52.608 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:51:54.616 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:51:54.617 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:51:54.697 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:51:55.570 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.39 seconds (process running for 9.74)
+00:52:21.821 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4782 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:52:21.824 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:52:23.745 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:52:23.746 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:52:23.833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:52:24.834 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.426 seconds (process running for 9.701)
+00:52:45.497 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4821 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:52:45.501 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:52:47.385 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:52:47.386 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:52:47.470 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:52:48.235 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.175 seconds (process running for 9.373)
+00:53:48.448 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4895 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:53:48.451 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:53:50.366 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:53:50.367 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:53:50.456 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:53:51.422 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.398 seconds (process running for 9.736)
+00:54:28.615 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4950 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:54:28.618 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:54:30.500 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:54:30.501 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:54:30.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:54:31.405 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.218 seconds (process running for 9.448)
+00:54:59.177 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 4995 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:54:59.199 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:55:01.096 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:55:01.097 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:55:01.184 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:55:01.991 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.223 seconds (process running for 9.468)
+00:58:21.704 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5186 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+00:58:21.707 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:58:23.667 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:58:23.668 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+00:58:23.745 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:58:24.893 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.628 seconds (process running for 10.178)
+01:01:47.014 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5380 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:01:47.017 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:01:48.952 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:01:48.953 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:01:49.049 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:01:49.837 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.233 seconds (process running for 9.527)
+01:02:10.988 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5433 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:02:10.991 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:02:12.847 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:02:12.848 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:02:12.935 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:02:13.739 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.184 seconds (process running for 9.503)
+01:04:59.517 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5608 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:04:59.521 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:05:01.374 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:05:01.375 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:05:01.453 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:05:02.257 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.17 seconds (process running for 9.697)
+01:05:21.630 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5646 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:05:21.633 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:05:23.564 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:05:23.565 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:05:23.654 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:05:24.446 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.245 seconds (process running for 9.446)
+01:07:27.308 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5772 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:07:27.311 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:07:29.166 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:07:29.167 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:07:29.253 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:07:30.075 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.173 seconds (process running for 9.522)
+01:07:50.194 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5809 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:07:50.199 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:07:52.067 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:07:52.067 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:07:52.150 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:07:53.187 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.406 seconds (process running for 9.644)
+01:08:18.548 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5854 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:08:18.552 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:08:20.404 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:08:20.405 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:08:20.490 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:08:21.452 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.338 seconds (process running for 9.709)
+01:08:54.223 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 5906 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:08:54.226 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:08:56.123 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:08:56.124 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:08:56.204 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:08:57.178 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.4 seconds (process running for 9.626)
+01:10:21.785 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6003 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:10:21.786 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:10:23.736 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:10:23.737 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:10:23.826 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:10:24.634 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.277 seconds (process running for 9.852)
+01:10:53.378 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6050 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:10:53.380 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:10:55.310 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:10:55.311 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:10:55.394 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:10:56.135 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.182 seconds (process running for 9.407)
+01:11:59.721 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6124 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:11:59.723 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:12:01.684 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:12:01.685 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:12:01.770 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:12:02.504 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.196 seconds (process running for 9.483)
+01:12:16.783 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 6159 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+01:12:16.785 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+01:12:18.703 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:12:18.704 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:12:18.781 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:12:19.603 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.254 seconds (process running for 9.543)
+03:06:33.539 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 12313 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+03:06:33.541 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+03:06:35.839 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:06:35.840 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+03:06:35.945 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:06:36.914 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.887 seconds (process running for 11.6)
+03:08:51.065 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 12462 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+03:08:51.075 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+03:08:52.707 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:08:52.708 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+03:08:52.792 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:08:53.658 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.203 seconds (process running for 4.05)
+03:08:54.267 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:09:06.227 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4334334343434343, cardFromValidTill=05/26, cardFromCVV=543, cardToNumber=4334534534545345, amount=Amount[value=323200, currency=RUR]]
+03:09:06.249 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 2038bac1-8464-4d40-bdf9-1ee5ee95ab3e
+03:09:06.287 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=2038bac1-8464-4d40-bdf9-1ee5ee95ab3e, code=0000]
+03:09:06.288 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2038bac1-8464-4d40-bdf9-1ee5ee95ab3e

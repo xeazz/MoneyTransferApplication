@@ -1,19 +1,24 @@
 package com.example.moneytransferservice.service;
 
-import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
-import com.example.moneytransferservice.exceptions.InternalServerErrorException;
+import com.example.moneytransferservice.exception.IncorrectInputDataException;
+import com.example.moneytransferservice.exception.InternalServerErrorException;
 import com.example.moneytransferservice.model.*;
 import com.example.moneytransferservice.repository.TransferRepositoryImpl;
 import com.example.moneytransferservice.validation.ValidationService;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.*;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
+import java.util.UUID;
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
+@Slf4j
 public class TransferServiceImplTest {
     TransferServiceImpl service;
     @Mock
@@ -28,12 +33,12 @@ public class TransferServiceImplTest {
 
     @BeforeAll
     public static void initTransferServiceImplTest() {
-        System.out.println("Running test");
+        log.info("Running test");
     }
 
     @AfterAll
     public static void completeTransferServiceImplTest() {
-        System.out.println("Test completed");
+        log.info("Test completed");
     }
 
     @Test
@@ -52,15 +57,22 @@ public class TransferServiceImplTest {
         assertThatThrownBy(() -> service.transfer(transferMoney)).isInstanceOf(InternalServerErrorException.class);
     }
 
-
     @Test
     @DisplayName("Checking the success of confirm operation by calling the confirmOperation method")
     public void checkingTheSuccessOfConfirmOperation() {
         TransferOperation transferOperation = new TransferOperation("1111", "0000");
-        service.generateOperationId();
         Mockito.when(validationService.validateConfirmOperation(transferOperation)).thenReturn(true);
         SuccessResponse successResponse = service.confirmOperation(transferOperation);
-        assertThat(successResponse).isExactlyInstanceOf(SuccessResponse.class);
+        assertNotEquals(UUID.randomUUID().toString(), successResponse.operationId());
+    }
+
+    @Test
+    @DisplayName("Checking operation ID for null")
+    public void checkingOperationIdForNull() {
+        TransferOperation transferOperation = new TransferOperation("1111", "0000");
+        Mockito.when(validationService.validateConfirmOperation(transferOperation)).thenReturn(true);
+        SuccessResponse successResponse = service.confirmOperation(transferOperation);
+        assertNotNull(successResponse.operationId());
     }
 
     @Test
@@ -68,9 +80,10 @@ public class TransferServiceImplTest {
     public void checkingTheSuccessOfTransactions() {
         TransferMoney transferMoney = new TransferMoney("1", "1",
                 "1", "1", new Amount(10, "rur"));
+        UUID operationId = UUID.randomUUID();
         Mockito.when(validationService.validateTransfer(transferMoney)).thenReturn(true);
-        when(repository.saveTransaction(service.generateOperationId(), transferMoney)).thenReturn(true);
+        when(repository.saveTransaction(transferMoney)).thenReturn(operationId);
         SuccessResponse successResponse = service.transfer(transferMoney);
-        assertThat(successResponse).isExactlyInstanceOf(SuccessResponse.class);
+        assertEquals(operationId.toString(), successResponse.operationId());
     }
 }

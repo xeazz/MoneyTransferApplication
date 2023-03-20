@@ -1,6 +1,6 @@
 package com.example.moneytransferservice.service;
 
-import com.example.moneytransferservice.exceptions.InternalServerErrorException;
+import com.example.moneytransferservice.exception.InternalServerErrorException;
 import com.example.moneytransferservice.model.SuccessResponse;
 import com.example.moneytransferservice.model.TransferMoney;
 import com.example.moneytransferservice.model.TransferOperation;
@@ -16,7 +16,6 @@ import java.util.UUID;
 public class TransferServiceImpl implements TransferService {
     private final TransferRepository repository;
     private final ValidationService validationService;
-    private UUID operationId;
 
     public TransferServiceImpl(TransferRepository repository, ValidationService validationService) {
         this.repository = repository;
@@ -24,33 +23,21 @@ public class TransferServiceImpl implements TransferService {
     }
 
     public SuccessResponse transfer(TransferMoney transferMoney) {
-        if (validationService.validateTransfer(transferMoney)) {
-            repository.saveTransaction(generateOperationId(), transferMoney);
-            log.info("Запрос на перевод денежных средств направлен. Код операции: {}", getOperationId().toString());
-            return new SuccessResponse(getOperationId().toString());
-        } else {
+        if (!validationService.validateTransfer(transferMoney)) {
             log.info("Ошибка добавления транзакции!");
             throw new InternalServerErrorException("Internal Server Error");
         }
+        UUID operationId = repository.saveTransaction(transferMoney);
+        log.info("Запрос на перевод денежных средств направлен. Код операции: {}", operationId.toString());
+        return new SuccessResponse(operationId.toString());
     }
 
-
     public SuccessResponse confirmOperation(TransferOperation operation) {
-        operation.setOperationId(getOperationId().toString());
-        if (validationService.validateConfirmOperation(operation)) {
-            log.info("Транзакция успешно проведена! Код операции: {}", getOperationId().toString());
-            return new SuccessResponse(getOperationId().toString());
-        } else {
+        if (!validationService.validateConfirmOperation(operation)) {
             log.info("Ошибка транзакции!");
             throw new InternalServerErrorException("Internal Server Error");
         }
-    }
-
-    UUID generateOperationId() {
-        return this.operationId = UUID.randomUUID();
-    }
-
-    public UUID getOperationId() {
-        return operationId;
+        log.info("Транзакция успешно проведена! Код операции: {}", operation.operationId());
+        return new SuccessResponse(operation.operationId());
     }
 }

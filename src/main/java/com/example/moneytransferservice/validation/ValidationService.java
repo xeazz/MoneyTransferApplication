@@ -1,12 +1,13 @@
 package com.example.moneytransferservice.validation;
 
-import com.example.moneytransferservice.exceptions.IncorrectInputDataException;
-import com.example.moneytransferservice.exceptions.InternalServerErrorException;
+import com.example.moneytransferservice.exception.IncorrectInputDataException;
+import com.example.moneytransferservice.exception.InternalServerErrorException;
 import com.example.moneytransferservice.model.TransferMoney;
 import com.example.moneytransferservice.model.TransferOperation;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+
 
 @Component
 @Slf4j
@@ -19,27 +20,27 @@ public class ValidationService {
             log.error("Ошибка операции перевода!");
             throw new InternalServerErrorException("Internal server error");
         }
-        if (transferMoney.getCardFromNumber() == null) {
+        if (transferMoney.cardFromNumber() == null) {
             log.error("Номер карты отправителя указан неверно!");
             throw new IncorrectInputDataException("Номер карты отправителя указан неверно!");
         }
-        if (transferMoney.getCardFromValidTill() == null) {
+        if (transferMoney.cardFromValidTill() == null) {
             log.error("Срок действия карты указан неверно!");
             throw new IncorrectInputDataException("Срок действия карты указан неверно!");
         }
-        if (transferMoney.getCardFromCVV() == null) {
+        if (transferMoney.cardFromCVV() == null) {
             log.error("CVV указан неверно!");
             throw new IncorrectInputDataException("CVV указан неверно!");
         }
-        if (transferMoney.getCardToNumber() == null) {
+        if (transferMoney.cardToNumber() == null) {
             log.error("Номер карты получателя указан неверно!");
             throw new IncorrectInputDataException("Номер карты получателя указан неверно!");
         }
-        if (transferMoney.getAmount() == null) {
+        if (transferMoney.amount() == null) {
             log.error("Ошибка операции перевода!");
             throw new InternalServerErrorException("Internal server error");
         }
-        if (transferMoney.getAmount().getValue() == 0) {
+        if (transferMoney.amount().value() == 0) {
             log.error("Сумма перевода указана некорректно!");
             throw new IncorrectInputDataException("Сумма перевода указана некорректно!");
         }
@@ -51,12 +52,12 @@ public class ValidationService {
             log.error("Ошибка подтверждения транзакции!");
             throw new InternalServerErrorException("Error transfer, confirmation is null!");
         }
-        if (transferOperation.getOperationId() == null) {
+        if (transferOperation.operationId() == null) {
             log.error("Некорректный ID операции!");
             throw new IncorrectInputDataException("Operation ID is null!");
         }
-        if (!transferOperation.getCode().equals(VARIFICATION_CODE)) {
-            log.error("Неверный код подтверждения: {}", transferOperation.getCode());
+        if (!transferOperation.code().equals(VARIFICATION_CODE)) {
+            log.error("Неверный код подтверждения: {}", transferOperation.code());
             throw new InternalServerErrorException("Транзакция не была проведена!");
         }
         return true;

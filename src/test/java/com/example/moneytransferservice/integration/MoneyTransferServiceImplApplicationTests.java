@@ -1,4 +1,4 @@
-package com.example.moneytransferservice;
+package com.example.moneytransferservice.integration;
 
 import com.example.moneytransferservice.model.*;
 import org.junit.jupiter.api.Assertions;
@@ -16,12 +16,14 @@ import org.testcontainers.junit.jupiter.Container;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class MoneyTransferServiceImplApplicationTests {
     @Autowired
-    TestRestTemplate restTemplate;
+    private final TestRestTemplate restTemplate = null;
+    private final Integer appPort = appFirst.getMappedPort(5500);
+    private final String mainLink = "http://localhost:" + appPort;
+
     @Container
     private static final GenericContainer<?> appFirst = new GenericContainer<>("myapp:latest")
             .withExposedPorts(5500);
@@ -33,9 +35,7 @@ class MoneyTransferServiceImplApplicationTests {
 
     @Test
     void transferTest() {
-        Integer appPort = appFirst.getMappedPort(5500);
-        final String transferLink = "http://localhost:" + appPort + "/transfer";
-
+        final String transferLink = mainLink + "/transfer";
         try {
             URI transferUri = new URI(transferLink);
             TransferMoney transferMoney = new TransferMoney("4875130166305242", "05/26",
@@ -43,6 +43,8 @@ class MoneyTransferServiceImplApplicationTests {
             HttpEntity<TransferMoney> requestTransfer = new HttpEntity<>(transferMoney);
             ResponseEntity<SuccessResponse> resultTransfer = restTemplate.postForEntity(transferUri, requestTransfer, SuccessResponse.class);
             Assertions.assertEquals(HttpStatus.OK, resultTransfer.getStatusCode());
+            Assertions.assertNotEquals(null, resultTransfer.getBody().operationId());
+
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
@@ -50,14 +52,14 @@ class MoneyTransferServiceImplApplicationTests {
 
     @Test
     void confirmOperationTest() {
-        Integer appPort = appFirst.getMappedPort(5500);
-        final String confirmOperationLink = "http://localhost:" + appPort + "/confirmOperation";
+        final String confirmOperationLink = mainLink + "/confirmOperation";
         try {
             URI confirmOperationUri = new URI(confirmOperationLink);
             TransferOperation transferOperation = new TransferOperation("1", "0000");
             HttpEntity<TransferOperation> requestConfirmOperation = new HttpEntity<>(transferOperation);
             ResponseEntity<SuccessResponse> resultConfirmOperation = restTemplate.postForEntity(confirmOperationUri, requestConfirmOperation, SuccessResponse.class);
             Assertions.assertEquals(HttpStatus.OK, resultConfirmOperation.getStatusCode());
+            Assertions.assertNotEquals(null, resultConfirmOperation.getBody().operationId());
 
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
