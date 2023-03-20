@@ -252,3 +252,190 @@
 03:09:06.249 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 2038bac1-8464-4d40-bdf9-1ee5ee95ab3e
 03:09:06.287 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=2038bac1-8464-4d40-bdf9-1ee5ee95ab3e, code=0000]
 03:09:06.288 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 2038bac1-8464-4d40-bdf9-1ee5ee95ab3e
+08:12:42.704 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 1008 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:12:42.708 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:12:45.364 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:12:45.365 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:12:45.471 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:12:46.306 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 4.698 seconds (process running for 5.476)
+08:12:47.053 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:12:56.317 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=3213123123131231, cardFromValidTill=02/26, cardFromCVV=323, cardToNumber=3231232131231231, amount=Amount[value=4340300, currency=RUR]]
+08:12:56.337 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: dd5ad1a0-218e-4913-bf26-83775b379f9c
+08:12:56.381 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=dd5ad1a0-218e-4913-bf26-83775b379f9c, code=0000]
+08:12:56.382 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: dd5ad1a0-218e-4913-bf26-83775b379f9c
+08:14:16.798 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 1063 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:14:16.807 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+08:14:19.066 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:14:19.071 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:14:19.166 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:14:20.098 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.832 seconds (process running for 51.046)
+08:14:40.338 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 1870 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:14:40.340 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+08:14:42.676 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:14:42.677 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:14:42.788 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:14:43.995 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 4.142 seconds (process running for 11.531)
+08:16:28.674 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 2014 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:16:28.679 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:16:30.258 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:16:30.259 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:16:30.348 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:16:31.098 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.054 seconds (process running for 3.903)
+08:16:31.350 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:16:54.015 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4342343243243423, cardFromValidTill=02/26, cardFromCVV=434, cardToNumber=4324234324324324, amount=Amount[value=32000, currency=RUR]]
+08:16:54.043 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 99528981-99b6-4d8e-822e-1e673c2d9f71
+08:16:54.089 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=99528981-99b6-4d8e-822e-1e673c2d9f71, code=0000]
+08:16:54.089 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 99528981-99b6-4d8e-822e-1e673c2d9f71
+08:23:34.660 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 2413 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:23:34.663 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:23:36.308 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:23:36.309 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:23:36.399 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:23:37.143 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.144 seconds (process running for 4.07)
+08:23:37.462 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:23:53.173 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=3232312313123123, cardFromValidTill=02/25, cardFromCVV=432, cardToNumber=3123213132131232, amount=Amount[value=43242300, currency=RUR]]
+08:23:53.196 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 6aa258ca-691f-41c9-8d8a-d70a3d7dda3d
+08:23:53.240 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=6aa258ca-691f-41c9-8d8a-d70a3d7dda3d, code=0000]
+08:23:53.241 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 6aa258ca-691f-41c9-8d8a-d70a3d7dda3d
+08:24:08.840 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4432423432423423, cardFromValidTill=02/27, cardFromCVV=434, cardToNumber=4324234234234232, amount=Amount[value=4343400, currency=RUR]]
+08:24:08.842 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 6aa258ca-691f-41c9-8d8a-d70a3d7dda3d
+08:24:08.866 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=6aa258ca-691f-41c9-8d8a-d70a3d7dda3d, code=0000]
+08:24:08.867 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 6aa258ca-691f-41c9-8d8a-d70a3d7dda3d
+08:26:16.515 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4324234234234234, cardFromValidTill=02/33, cardFromCVV=432, cardToNumber=4346565756543434, amount=Amount[value=32131200, currency=RUR]]
+08:26:16.518 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 6aa258ca-691f-41c9-8d8a-d70a3d7dda3d
+08:26:16.529 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=6aa258ca-691f-41c9-8d8a-d70a3d7dda3d, code=0000]
+08:26:16.530 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 6aa258ca-691f-41c9-8d8a-d70a3d7dda3d
+08:28:04.169 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 2650 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:28:04.174 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:28:05.721 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:28:05.722 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:28:05.808 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:28:06.552 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.019 seconds (process running for 3.799)
+08:28:06.898 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:28:50.089 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4322232342342344, cardFromValidTill=02/25, cardFromCVV=434, cardToNumber=3434324343434343, amount=Amount[value=434300, currency=RUR]]
+08:28:50.111 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 50082035-e6bb-4bb5-9f26-610d36fe4132
+08:28:50.157 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=50082035-e6bb-4bb5-9f26-610d36fe4132, code=0000]
+08:28:50.158 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 50082035-e6bb-4bb5-9f26-610d36fe4132
+08:29:08.903 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=5686677877899880, cardFromValidTill=02/27, cardFromCVV=344, cardToNumber=7472784985435909, amount=Amount[value=3211200, currency=RUR]]
+08:29:08.906 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 50082035-e6bb-4bb5-9f26-610d36fe4132
+08:29:08.921 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=50082035-e6bb-4bb5-9f26-610d36fe4132, code=0000]
+08:29:08.921 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 50082035-e6bb-4bb5-9f26-610d36fe4132
+08:35:15.180 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 3078 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+08:35:15.183 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+08:35:16.797 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:35:16.797 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+08:35:16.891 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:35:17.676 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.112 seconds (process running for 4.029)
+08:35:18.135 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:35:34.578 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4324324234242342, cardFromValidTill=02/25, cardFromCVV=432, cardToNumber=4324243243242342, amount=Amount[value=2343200, currency=RUR]]
+08:35:34.601 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 63983640-9f10-47ae-9094-0c408c6afb7e
+08:35:34.646 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=63983640-9f10-47ae-9094-0c408c6afb7e, code=0000]
+08:35:34.647 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 63983640-9f10-47ae-9094-0c408c6afb7e
+08:35:58.725 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=8894689468464064, cardFromValidTill=02/28, cardFromCVV=434, cardToNumber=8234297479258024, amount=Amount[value=434300, currency=RUR]]
+08:35:58.728 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 36d3c074-619c-4fdd-b425-de4a77465a1c
+08:35:58.743 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=36d3c074-619c-4fdd-b425-de4a77465a1c, code=0000]
+08:35:58.743 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 36d3c074-619c-4fdd-b425-de4a77465a1c
+08:42:03.216 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4342342343423434, cardFromValidTill=02/27, cardFromCVV=434, cardToNumber=3423423423423423, amount=Amount[value=4300, currency=RUR]]
+08:42:03.218 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 3e933b70-59e3-4b73-a386-f32a9a1cace3
+08:42:03.231 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=3e933b70-59e3-4b73-a386-f32a9a1cace3, code=0000]
+08:42:03.231 [http-nio-5500-exec-7] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 3e933b70-59e3-4b73-a386-f32a9a1cace3
+11:12:28.862 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 7579 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+11:12:28.864 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+11:12:31.147 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:12:31.148 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+11:12:31.242 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:12:32.255 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 3.901 seconds (process running for 11.49)
+11:13:30.653 [main] INFO  c.e.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.6 with PID 7665 (/Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService/target/classes started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+11:13:30.657 [main] INFO  c.e.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+11:13:32.397 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:13:32.398 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+11:13:32.494 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:13:33.286 [main] INFO  c.e.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 3.241 seconds (process running for 4.149)
+11:13:33.883 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:13:40.760 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+11:13:40.797 [http-nio-5500-exec-1] INFO  c.e.m.r.TransferRepositoryImpl - Объект: TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]], добавлен с номером операции: ee5c5b66-1067-42ec-a1b2-c4940eb6aa2f
+11:13:40.797 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ee5c5b66-1067-42ec-a1b2-c4940eb6aa2f
+11:13:45.704 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=4fe32c4b-c747-4c2e-b608-b09680221e65, code=0000]
+11:13:45.707 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 4fe32c4b-c747-4c2e-b608-b09680221e65
+11:13:47.142 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=4fe32c4b-c747-4c2e-b608-b09680221e65, code=0000]
+11:13:47.144 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 4fe32c4b-c747-4c2e-b608-b09680221e65
+11:13:47.546 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=4fe32c4b-c747-4c2e-b608-b09680221e65, code=0000]
+11:13:47.547 [http-nio-5500-exec-5] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 4fe32c4b-c747-4c2e-b608-b09680221e65
+11:13:47.856 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=4fe32c4b-c747-4c2e-b608-b09680221e65, code=0000]
+11:13:47.857 [http-nio-5500-exec-6] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 4fe32c4b-c747-4c2e-b608-b09680221e65
+11:13:55.972 [http-nio-5500-exec-7] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=null, code=0000]
+11:13:55.973 [http-nio-5500-exec-7] ERROR c.e.m.validation.ValidationService - Некорректный ID операции!
+11:13:57.481 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=null, code=0000]
+11:13:57.485 [http-nio-5500-exec-9] ERROR c.e.m.validation.ValidationService - Некорректный ID операции!
+11:13:58.267 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=null, code=0000]
+11:13:58.268 [http-nio-5500-exec-2] ERROR c.e.m.validation.ValidationService - Некорректный ID операции!
+11:14:06.174 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=null, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+11:14:06.176 [http-nio-5500-exec-3] ERROR c.e.m.validation.ValidationService - Номер карты отправителя указан неверно!
+11:14:16.042 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=null, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+11:14:16.045 [http-nio-5500-exec-5] ERROR c.e.m.validation.ValidationService - Срок действия карты указан неверно!
+11:14:29.935 [http-nio-5500-exec-6] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=null, cardToNumber=4832137002407281, amount=Amount[value=100, currency=RUB]]
+11:14:29.937 [http-nio-5500-exec-6] ERROR c.e.m.validation.ValidationService - CVV указан неверно!
+11:14:37.005 [http-nio-5500-exec-9] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=null, amount=Amount[value=100, currency=RUB]]
+11:14:37.006 [http-nio-5500-exec-9] ERROR c.e.m.validation.ValidationService - Номер карты получателя указан неверно!
+11:14:44.364 [http-nio-5500-exec-10] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=Amount[value=0, currency=RUB]]
+11:14:44.368 [http-nio-5500-exec-10] ERROR c.e.m.validation.ValidationService - Сумма перевода указана некорректно!
+11:14:51.253 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=null]
+11:14:51.255 [http-nio-5500-exec-3] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+11:14:52.596 [http-nio-5500-exec-5] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4875130166305242, cardFromValidTill=05/26, cardFromCVV=123, cardToNumber=4832137002407281, amount=null]
+11:14:52.597 [http-nio-5500-exec-5] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+11:15:41.661 [http-nio-5500-exec-2] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4324242342342342, cardFromValidTill=02/25, cardFromCVV=022, cardToNumber=4234234234242442, amount=Amount[value=432400, currency=RUR]]
+11:15:41.667 [http-nio-5500-exec-2] INFO  c.e.m.r.TransferRepositoryImpl - Объект: TransferMoney[cardFromNumber=4324242342342342, cardFromValidTill=02/25, cardFromCVV=022, cardToNumber=4234234234242442, amount=Amount[value=432400, currency=RUR]], добавлен с номером операции: 42034071-e05a-40df-bbf5-eb6f45c5faf8
+11:15:41.668 [http-nio-5500-exec-2] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 42034071-e05a-40df-bbf5-eb6f45c5faf8
+11:15:41.691 [http-nio-5500-exec-1] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=42034071-e05a-40df-bbf5-eb6f45c5faf8, code=0000]
+11:15:41.692 [http-nio-5500-exec-1] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 42034071-e05a-40df-bbf5-eb6f45c5faf8
+11:16:11.031 [http-nio-5500-exec-3] INFO  c.e.m.controller.TransferController - Post request on endpoint "/transfer": TransferMoney[cardFromNumber=4324234324234324, cardFromValidTill=02/26, cardFromCVV=434, cardToNumber=4234234234234234, amount=Amount[value=34400, currency=RUR]]
+11:16:11.037 [http-nio-5500-exec-3] INFO  c.e.m.r.TransferRepositoryImpl - Объект: TransferMoney[cardFromNumber=4324234324234324, cardFromValidTill=02/26, cardFromCVV=434, cardToNumber=4234234234234234, amount=Amount[value=34400, currency=RUR]], добавлен с номером операции: ec2574f4-7770-43da-99c1-0d877f715205
+11:16:11.038 [http-nio-5500-exec-3] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: ec2574f4-7770-43da-99c1-0d877f715205
+11:16:11.050 [http-nio-5500-exec-4] INFO  c.e.m.controller.TransferController - Post request on endpoint "/confirmOperation": TransferOperation[operationId=ec2574f4-7770-43da-99c1-0d877f715205, code=0000]
+11:16:11.050 [http-nio-5500-exec-4] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: ec2574f4-7770-43da-99c1-0d877f715205
+11:18:46.763 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 7968 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+11:18:46.767 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+11:18:49.008 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:18:49.009 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+11:18:49.101 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:18:50.492 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 4.351 seconds (process running for 11.798)
+11:18:51.813 [main] INFO  c.e.m.s.TransferServiceImplTest - Running test
+11:18:52.368 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 1111
+11:18:52.444 [main] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 3e933b70-59e3-4b73-a386-f32a9a1cace3
+11:18:52.569 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 1111
+11:18:52.597 [main] INFO  c.e.m.s.TransferServiceImplTest - Test completed
+11:18:52.618 [main] INFO  c.e.m.v.ValidationServiceTest - Running test
+11:18:52.628 [main] ERROR c.e.m.validation.ValidationService - Срок действия карты указан неверно!
+11:18:52.634 [main] ERROR c.e.m.validation.ValidationService - Номер карты отправителя указан неверно!
+11:18:52.639 [main] ERROR c.e.m.validation.ValidationService - Неверный код подтверждения: 0001
+11:18:52.643 [main] ERROR c.e.m.validation.ValidationService - Сумма перевода указана некорректно!
+11:18:52.650 [main] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+11:18:52.653 [main] ERROR c.e.m.validation.ValidationService - Некорректный ID операции!
+11:18:52.658 [main] ERROR c.e.m.validation.ValidationService - Ошибка подтверждения транзакции!
+11:18:52.661 [main] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+11:18:52.671 [main] ERROR c.e.m.validation.ValidationService - Номер карты получателя указан неверно!
+11:18:52.677 [main] ERROR c.e.m.validation.ValidationService - CVV указан неверно!
+11:18:52.680 [main] INFO  c.e.m.v.ValidationServiceTest - Test completed
+13:04:01.832 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Starting MoneyTransferServiceImplApplicationTests using Java 17.0.6 with PID 9838 (started by dmitrijvorobev in /Users/dmitrijvorobev/Desktop/Netology/MoneyTransferService)
+13:04:01.838 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - No active profile set, falling back to 1 default profile: "default"
+13:04:04.060 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:04:04.064 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+13:04:04.169 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:04:05.521 [main] INFO  c.e.m.i.MoneyTransferServiceImplApplicationTests - Started MoneyTransferServiceImplApplicationTests in 4.293 seconds (process running for 27.762)
+13:04:06.906 [main] INFO  c.e.m.s.TransferServiceImplTest - Running test
+13:04:07.505 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 1111
+13:04:07.562 [main] INFO  c.e.m.service.TransferServiceImpl - Запрос на перевод денежных средств направлен. Код операции: 3e933b70-59e3-4b73-a386-f32a9a1cace3
+13:04:07.666 [main] INFO  c.e.m.service.TransferServiceImpl - Транзакция успешно проведена! Код операции: 1111
+13:04:07.687 [main] INFO  c.e.m.s.TransferServiceImplTest - Test completed
+13:04:07.702 [main] INFO  c.e.m.v.ValidationServiceTest - Running test
+13:04:07.712 [main] ERROR c.e.m.validation.ValidationService - Срок действия карты указан неверно!
+13:04:07.719 [main] ERROR c.e.m.validation.ValidationService - Номер карты отправителя указан неверно!
+13:04:07.723 [main] ERROR c.e.m.validation.ValidationService - Неверный код подтверждения: 0001
+13:04:07.730 [main] ERROR c.e.m.validation.ValidationService - Сумма перевода указана некорректно!
+13:04:07.737 [main] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+13:04:07.742 [main] ERROR c.e.m.validation.ValidationService - Некорректный ID операции!
+13:04:07.746 [main] ERROR c.e.m.validation.ValidationService - Ошибка подтверждения транзакции!
+13:04:07.750 [main] ERROR c.e.m.validation.ValidationService - Ошибка операции перевода!
+13:04:07.764 [main] ERROR c.e.m.validation.ValidationService - Номер карты получателя указан неверно!
+13:04:07.771 [main] ERROR c.e.m.validation.ValidationService - CVV указан неверно!
+13:04:07.772 [main] INFO  c.e.m.v.ValidationServiceTest - Test completed
